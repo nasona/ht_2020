@@ -225,7 +225,7 @@ class Camelot(object):
             return False
 
 class Song(object):
-    def __init__(self, id, artist, title, album, trackNumber, deluxeOnly, single, genre, key, bpm, camelot):
+    def __init__(self, id, artist, title, album, trackNumber, deluxeOnly, single, genre, key, bpm, camelot, year):
         self._id = id
         self._artist = artist
         self._title = title
@@ -237,9 +237,46 @@ class Song(object):
         self._key = key
         self._bpm = bpm
         self._camelot = camelot
+        self._year = year
 
     def isCamelotCompatible(self, other):
         return self._camelot.isCompatible(other._camelot)
+
+    def isBpmCompatible(self, other):
+        if self._bpm - other._bpm >= -10 or self._bpm - other._bpm <= 10:
+            return True
+        else:
+            return False
+
+    def hasSameTrackNumber(self, other):
+        if self._trackNumber == other._trackNumber:
+            return True
+        else:
+            return False
+
+    def singleStatus(self, other):
+        if self._single == other._single and self._single == True:
+            return True
+        else:
+            return False
+
+    def onSameAlbum(self, other):
+        if self._album == other._album:
+            return True
+        else:
+            return False
+
+    def similarYear(self, other):
+        if self._year - other._year >= -3 and self._year <= 3:
+            return True
+        else:
+            return False
+
+    def hasSameGenre(self, other):
+        if self._genre == self._other:
+            return True
+        else:
+            return False
 
     def __str__(self):
         return self._metadata["title"] + " by " + self._metadata["artist"]
@@ -250,7 +287,7 @@ class Song(object):
                     "\ntrack number: " + self._trackNumber + "\ngenre: " + self._genre + \
                     "\non deluxe album only: " + self._deluxeOnly + "\nsingle promotion: " + \
                     self._single + "key: " + self._key + "camelot: " + self._camelot + \
-                    "beats per minute: " + self._bpm
+                    "\nbeats per minute: " + self._bpm
 
 class SongVertex(Vertex):
     def __init__(self, song):
@@ -258,6 +295,36 @@ class SongVertex(Vertex):
         Vertex.__init__(self, self._song._id)
 
 class SongGraph(WeightedUndirectedGraph):
-    def __init__():
+    def __init__(self, songList=None):
         """initializes a song graph with the given parameters"""
-        pass
+        if songList != None:
+            songLabels = []
+            for song in songList:
+                songLabels.append(song._id)
+            WeightedUndirectedGraph.__init__(self, songLabels)
+        else:
+            WeightedUndirectedGraph.__init__(self, None)
+
+    def addVertex(self, label):
+        self._vertices[label] = SongVertex(label)
+        self._vertexCount += 1
+
+    def calculateWeightedEdges(self):
+        for mainVertex in self._vertices:
+            weight = 0
+            for compVertex in self._vertices:
+                if mainVertex != compVertex:
+                    if mainVertex._song.isCamelotCompatible(compVertex._song):
+                        weight += 7
+                    if mainVertex._song.isBpmCompatible(compVertex._song):
+                        weight += 5
+                    if mainVertex._song.hasSameTrackNumber(compVertex._song):
+                        weight += 3
+                    if mainVertex._song.singleStatus(compVertex._song):
+                        weight += 2
+                    if mainVertex._song.onSameAlbum(compVertex._song):
+                        weight += 1
+                    if mainVertex._song.similarYear(compVertex._song) and mainVertex._song.hasSameGenre(compVertex._song):
+                        weight += 1
+            if weight > 0:
+                self.addEdge(mainVertex, compVertex, 20 - weight)
