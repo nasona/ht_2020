@@ -24,6 +24,7 @@ class Edge(object):
         if self is other: return True
         if type(self) != type(other):
             return False
+        print(self._vertex1 + " and " + other._vertex1 + " + " +  self._vertex2 + " and " + other._vertex2)
         return (self._vertex1 == other._vertex1 and self._vertex2 == other._vertex2) or \
                (self._vertex1 == other._vertex2 and self._vertex2 == other._vertex1)
 
@@ -302,7 +303,7 @@ class Song(object):
     def isBpmCompatible(self, other):
         """returns true if two songs are within 10 bpm of each other
         and false otherwise"""
-        if self._bpm - other._bpm >= -10 or self._bpm - other._bpm <= 10:
+        if self._bpm - other._bpm >= -10 and self._bpm - other._bpm <= 10:
             return True
         else:
             return False
@@ -334,7 +335,7 @@ class Song(object):
     def similarYear(self, other):
         """returns true if the year the song was released within
         three years of each other or false otherwise"""
-        if self._year - other._year >= -3 and self._year <= 3:
+        if self._year - other._year >= -2 and self._year <= 2:
             return True
         else:
             return False
@@ -349,7 +350,7 @@ class Song(object):
 
     def __str__(self):
         """displays the song title and artist"""
-        return self._metadata["title"] + " by " + self._metadata["artist"]
+        return self._title + " by " + self._artist
 
     def allSongInfo(self):
         """displays all the info for a song"""
@@ -370,25 +371,20 @@ class SongVertex(Vertex):
 class SongGraph(WeightedUndirectedGraph):
     def __init__(self, songList=None):
         """initializes a song graph with the given parameters"""
-        if songList != None:
-            songLabels = []
-            for song in songList:
-                songLabels.append(song._id)
-            WeightedUndirectedGraph.__init__(self, songLabels)
-        else:
-            WeightedUndirectedGraph.__init__(self, None)
+        WeightedUndirectedGraph.__init__(self, songList)
+        self.calculateWeightedEdges()
 
-    def addVertex(self, label):
+    def addVertex(self, song):
         """adds a vertex as a song vertex"""
-        self._vertices[label] = SongVertex(label)
+        self._vertices[song._id] = SongVertex(song)
         self._vertexCount += 1
 
     def calculateWeightedEdges(self):
         """connects the graph and calculates the weight edges"""
+        weight = 0
         for mainVertex in self.vertices():
-            weight = 0
             for compVertex in self.vertices():
-                if mainVertex != compVertex:
+                if mainVertex._label != compVertex._label and not self.containsEdge(compVertex._label, mainVertex._label):
                     if mainVertex._song.isCamelotCompatible(compVertex._song):
                         weight += 7
                     if mainVertex._song.isBpmCompatible(compVertex._song):
@@ -401,5 +397,6 @@ class SongGraph(WeightedUndirectedGraph):
                         weight += 1
                     if mainVertex._song.similarYear(compVertex._song) and mainVertex._song.hasSameGenre(compVertex._song):
                         weight += 1
-            if weight > 0:
-                self.addEdge(mainVertex, compVertex, 20 - weight)
+                if weight > 0:
+                    self.addEdge(mainVertex._label, compVertex._label, 20 - weight)
+                weight = 0
