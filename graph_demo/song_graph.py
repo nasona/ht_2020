@@ -177,7 +177,7 @@ class WeightedUndirectedGraph(object):
         result += "\n";
         result += str(self.sizeEdges()) + " Edges: "
         for edge in self.edges():
-            result += " " + str(edge)
+            result += "\n" + str(edge)
         return result
 
     def add(self, label):
@@ -278,6 +278,10 @@ class Camelot(object):
             return True
         else:
             return False
+
+    def __str__(self):
+        """string representation of camelot object"""
+        return str(self._hour) + self._wheel
 
 class Song(object):
     def __init__(self, id, artist, title, album, trackNumber, deluxeOnly, single, genre, key, bpm, camelot, year):
