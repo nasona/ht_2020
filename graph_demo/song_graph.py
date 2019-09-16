@@ -5,8 +5,17 @@ Honors Thesis
 
 Class to create a graph made up of songs
 
-citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
+Citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
 """
+WEIGHTS = {"camelot": 7, "bpm": 5, "track number": 3, "single": 2, "album": 1, "year and genre": 1}
+MINIMUM_PLAYLIST_LENGTH = 5
+#fully connected graph and need to figure out a way to force a path of a minimum length
+#mulitple levels of the same songs
+#don't include intermediate level in the final song
+#prevent going back between two songs that are similar
+#or keep track of which songs you've seen and add a larger weight to songs we've already seen
+#minimum amount of distance two songs could have minus the number of songs left
+#place all the songs in a row, unique color per song
 class Edge(object):
     def __init__(self, vertex1, vertex2, weight = None):
         """initializes an edge object given the vertices and the weight"""
@@ -372,6 +381,10 @@ class SongVertex(Vertex):
         self._song = song
         Vertex.__init__(self, self._song._id)
 
+    def __str__(self):
+        """returns string representation of the vertex"""
+        return str(self._label) + " (" + str(self._song) + ")"
+
 class SongGraph(WeightedUndirectedGraph):
     def __init__(self, songList=None):
         """initializes a song graph with the given parameters"""
@@ -383,24 +396,31 @@ class SongGraph(WeightedUndirectedGraph):
         self._vertices[song._id] = SongVertex(song)
         self._vertexCount += 1
 
+    def maxEdgeWeight(self):
+        total = 0
+        for key in WEIGHTS:
+            total += WEIGHTS[key]
+        return total
+
     def calculateWeightedEdges(self):
         """connects the graph and calculates the weight edges"""
+        ##put the magic weight numbers in a dictionary at top of the file
         weight = 0
         for mainVertex in self.vertices():
             for compVertex in self.vertices():
                 if mainVertex._label != compVertex._label and not self.containsEdge(compVertex._label, mainVertex._label):
                     if mainVertex._song.isCamelotCompatible(compVertex._song):
-                        weight += 7
+                        weight += WEIGHTS["camelot"]
                     if mainVertex._song.isBpmCompatible(compVertex._song):
-                        weight += 5
+                        weight += WEIGHTS["bpm"]
                     if mainVertex._song.hasSameTrackNumber(compVertex._song):
-                        weight += 3
+                        weight += WEIGHTS["track number"]
                     if mainVertex._song.singleStatus(compVertex._song):
-                        weight += 2
+                        weight += WEIGHTS["single"]
                     if mainVertex._song.onSameAlbum(compVertex._song):
-                        weight += 1
+                        weight += WEIGHTS["album"]
                     if mainVertex._song.similarYear(compVertex._song) and mainVertex._song.hasSameGenre(compVertex._song):
-                        weight += 1
+                        weight += WEIGHTS["year and genre"]
                 if weight > 0:
-                    self.addEdge(mainVertex._label, compVertex._label, 20 - weight)
+                    self.addEdge(mainVertex._label, compVertex._label, self.maxEdgeWeight() + 1 - weight)
                 weight = 0
