@@ -1,0 +1,11 @@
+id,artist,song_title,album,track_number,deluxe_only,single,genre,key,bpm,camelot,year
+89,Taylor Swift,New Romantics,1989,16,TRUE,TRUE,Pop,F Major,122,7B,2014
+57,Taylor Swift,I Knew You Were Trouble.,Red,4,FALSE,TRUE,Country,F# Major,154,2B,2012
+46,Taylor Swift,Haunted ,Speak Now,12,FALSE,FALSE,Country,F Major,162,7B,2010
+76,Taylor Swift,Style,1989,3,FALSE,TRUE,Pop,D Major,95,10B,2014
+43,Taylor Swift,Enchanted,Speak Now,9,FALSE,FALSE,Country,A b Major,164,4B,2010
+60,Taylor Swift,I Almost Do,Red,7,FALSE,FALSE,Country,E Major,146,12B,2012
+82,Taylor Swift,Wildest Dreams ,1989,9,FALSE,TRUE,Pop,A b Major,140,4B,2014
+94,Taylor Swift,Delicate,reputation,5,FALSE,TRUE,Pop,A Minor,95,8A,2017
+112,Taylor Swift,Miss Americana & the Heartbreak Prince,Lover,7,FALSE,FALSE,Pop,B Minor,150,10A,2019
+32,Taylor Swift,Forever & Always,Fearless,11,FALSE,FALSE,Country,B b Major,128,6B,2008
