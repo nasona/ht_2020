@@ -474,3 +474,11 @@ class SongGraph(WeightedUndirectedGraph):
                 if weight > 0:
                     self.addEdge(mainVertex._label, compVertex._label, self.maxPossibleEdgeWeight() + 1 - weight)
                 weight = 0
+
+    def getStartVertex(self):
+        """returns the start vertex in the playlist"""
+        return self._layers[0][0]
+
+    def getEndVertex(self):
+        """returns the end vertex in the playlist"""
+        return self._layers[MINIMUM_PLAYLIST_LENGTH][0]
