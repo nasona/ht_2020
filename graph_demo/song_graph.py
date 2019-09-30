@@ -377,12 +377,13 @@ class Song(object):
 
 class SongVertex(Vertex):
     def __init__(self, song, layer=""):
-        """"""
+        """initializes a song vertex"""
         self._song = song
         self._layer = layer
         Vertex.__init__(self, str(self._song._id) + "x" + str(layer))
 
     def setLayer(self, layer):
+        """sets the layer of a song vertex"""
         self._layer = layer
 
     def __str__(self):
@@ -390,25 +391,37 @@ class SongVertex(Vertex):
         return str(self._label) + " (" + str(self._song) + ")"
 
 class SongGraph(WeightedUndirectedGraph):
-    def __init__(self, songList=None):
+    def __init__(self, songList=None, startSong=None, endSong=None):
         """initializes a song graph with the given parameters"""
+        self._startSong = startSong
+        self._endSong = endSong
         self._layers = {}
         self._edgeInfo = []
-        for i in range(len(songList)):
+        for i in range(1, MINIMUM_PLAYLIST_LENGTH):
             self._layers[i] = []
         WeightedUndirectedGraph.__init__(self, songList)
         self.calculateWeightedEdges()
-        #self.createLayerFormation()
+        self.createLayerFormation()
 
     def addVertex(self, song):
         """adds a vertex as a song vertex"""
-        for layer in self._layers:
-            currentSong = SongVertex(song, layer)
-            self._vertices[str(song._id) + "x" + str(layer)] = currentSong
-            self._layers[layer].append(currentSong)
+        if song != self._startSong and song != self._endSong:
+            for layer in range(1, MINIMUM_PLAYLIST_LENGTH):
+                currentSong = SongVertex(song, layer)
+                self._vertices[str(song._id) + "x" + str(layer)] = currentSong
+                self._layers[layer].append(currentSong)
+                self._vertexCount += 1
+        elif song == self._startSong:
+            self._vertices[str(song._id) + "x" + str(0)] = SongVertex(song, 0)
+            self._layers[0] = [self._startSong]
+            self._vertexCount += 1
+        elif song == self._endSong:
+            self._vertices[str(song._id) + "x" + str(MINIMUM_PLAYLIST_LENGTH)] = SongVertex(song, MINIMUM_PLAYLIST_LENGTH)
+            self._layers[MINIMUM_PLAYLIST_LENGTH] = [self._endSong]
             self._vertexCount += 1
 
     def createLayerFormation(self):
+        """makes the appropriate connections between the vertecies in layers"""
         for i in range(len(self._layers)-1):
             for aboveVertex in self._layers[i]:
                 for belowVertex in self._layers[i+1]:
@@ -418,17 +431,25 @@ class SongGraph(WeightedUndirectedGraph):
                             self.addEdge(aboveVertex._label, belowVertex._label, entry._weight)
 
     def maxPossibleEdgeWeight(self):
+        """gets the max possible weight that an edge could have"""
         total = 0
         for key in WEIGHTS:
             total += WEIGHTS[key]
         return total
 
-#    def increaseRestOfEdges(self, vertex1, vertex2):
+    def increaseRestOfEdges(self, vertex1, vertex2):
+        """increases the edge weights of the successive layers between the two
+        songs given by the two vertices"""
+        song1 = vertex1._song
+        song2 = vertex2._song
+        layer1 = vertex1._layer
+        layer2 = vertex2._layer
+        if layer1 > 0:
+            for i in range(layer2, MINIMUM_PLAYLIST_LENGTH - 1):
+                aboveSong = self._layers[i][str(song1._id) + "x" + str(i)]
+                belowSong = self._layers[i+1][str(song2._id) + "x" + str(i+1)]
+                aboveSong.getEdgeTo(belowSong).setWeight(10000)
 
-    def editGraphForSearch(self, startLabel, endLabel):
-        self._layers[0] = [self.getVertex(startLabel)]
-        for i in range(1, MINIMUM_PLAYLIST_LENGTH):
-            self._layers[i].remove(self.getVertex(endLabel))
 
     def calculateWeightedEdges(self):
         """connects the graph and calculates the weight edges"""

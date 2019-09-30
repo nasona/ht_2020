@@ -21,7 +21,12 @@ def createSongs():
     return songList
 
 def main():
-    graph = SongGraph(createSongs())
+    songList = createSongs()
+    #print(len(songList))
+    graph = SongGraph(songList, songList[3], songList[4])
+    #print(str(graph))
+    #print(songList)
+    #graph.editGraphForSearch(76,46)
     print(str(graph))
 
 if __name__ == "__main__":
