@@ -38,7 +38,6 @@ def aStar(graph):
                 minLabel = vertex.getLabel()
         #Pop F from the open list
         chosenVertex = graph.getVertex(minLabel)
-        print(chosenVertex)
         open.remove(chosenVertex)
 
         #If F is the goal, stop processing
@@ -54,7 +53,6 @@ def aStar(graph):
                 #Calculate a new distance: 	F's distance + edge's weight + estimated distance to goal
                 #tracker[vertex.getLabel()]["distance"]
                 if songAlreadyInPlaylist(vertex, graph, graph.getStartVertex(), chosenVertex, tracker):
-                    print("here")
                     newDistance = tracker[chosenVertex.getLabel()]["distance"] + edge.getWeight() + calculateEstimatedDistance(graph, chosenVertex._layer) + BIG_NUMBER
                 else:
                     newDistance = tracker[chosenVertex.getLabel()]["distance"] + edge.getWeight() + calculateEstimatedDistance(graph, chosenVertex._layer)
@@ -72,7 +70,14 @@ def aStar(graph):
                     tracker[vertex.getLabel()]["included"] = True
     return tracker
 
-def prettyPath(startVertex, endVertex, tracker):
+def prettyPath(graph, tracker):
+    prettyPrint = ""
+    path = getPath(graph.getStartVertex(), graph.getEndVertex(), tracker)
+    for vertexLabel in path:
+        prettyPrint += str(graph.getVertex(vertexLabel).getSong()) + "\n"
+    return prettyPrint
+
+def getPath(startVertex, endVertex, tracker):
     currentSong = endVertex.getLabel()
     path = [currentSong]
     while currentSong != startVertex.getLabel():
@@ -81,7 +86,7 @@ def prettyPath(startVertex, endVertex, tracker):
     return path
 
 def songAlreadyInPlaylist(compVertex, graph, startVertex, endVertex, tracker):
-    path = prettyPath(startVertex, endVertex, tracker)
+    path = getPath(startVertex, endVertex, tracker)
     for vertex in path:
         if graph.getVertex(vertex).getSong() == compVertex.getSong():
             return True
