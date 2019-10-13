@@ -2,6 +2,7 @@ from song_graph import Song
 from song_graph import Camelot
 from song_graph import SongGraph
 import csv
+import graph_algs
 
 SONGCSV = "songs-demo.csv"
 
@@ -27,7 +28,11 @@ def main():
     #print(str(graph))
     #print(songList)
     #graph.editGraphForSearch(76,46)
-    print(str(graph))
+    #print(str(graph))
+    result = graph_algs.aStar(graph)
+    print(result)
+    print(graph_algs.prettyPath(graph.getStartVertex(), graph.getEndVertex(), result))
+
 
 if __name__ == "__main__":
     main()
