@@ -30,8 +30,8 @@ def main():
     #graph.editGraphForSearch(76,46)
     #print(str(graph))
     result = graph_algs.aStar(graph)
-    print(result)
-    print(graph_algs.prettyPath(graph.getStartVertex(), graph.getEndVertex(), result))
+    #print(result)
+    print(graph_algs.prettyPath(graph, result))
 
 
 if __name__ == "__main__":
