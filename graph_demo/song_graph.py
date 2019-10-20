@@ -8,7 +8,7 @@ Class to create a graph made up of songs
 Citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
 """
 WEIGHTS = {"camelot": 7, "bpm": 5, "track number": 3, "single": 2, "album": 1, "year and genre": 1}
-MINIMUM_PLAYLIST_LENGTH = 5
+MINIMUM_PLAYLIST_LENGTH = 8
 #fully connected graph and need to figure out a way to force a path of a minimum length
 #mulitple levels of the same songs
 #don't include intermediate level in the final song
