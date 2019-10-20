@@ -1,0 +1,130 @@
+id,artist,song_title,album,track_number,deluxe_only,single,genre,key,bpm,camelot,year
+1,Taylor Swift,Tim McGraw,Taylor Swift,1,FALSE,TRUE,Country,C Major,152,8B,2006
+2,Taylor Swift,Picture to Burn,Taylor Swift,2,FALSE,TRUE,Country,G Major,106,9B,2006
+3,Taylor Swift,Teardrops on My Guitar,Taylor Swift,3,FALSE,TRUE,Country,B b Major,100,6B,2006
+4,Taylor Swift,A Place In This World,Taylor Swift,4,FALSE,FALSE,Country,A Major,115,11B,2006
+5,Taylor Swift,Cold As You,Taylor Swift,5,FALSE,FALSE,Country,F Major,176,7B,2006
+6,Taylor Swift,The Outside,Taylor Swift,6,FALSE,FALSE,Country,F Major,113,7B,2006
+7,Taylor Swift,Tied Together With a Smile,Taylor Swift,7,FALSE,FALSE,Country,D Major,146,10B,2006
+8,Taylor Swift,Stay Beautiful,Taylor Swift,8,FALSE,FALSE,Country,A b Major,132,4B,2006
+9,Taylor Swift,Should’ve Said No,Taylor Swift,9,FALSE,TRUE,Country,E Minor,168,9A,2006
+10,Taylor Swift,Mary’s Song (Oh My My My),Taylor Swift,10,FALSE,FALSE,Country,D Major,151,10B,2006
+11,Taylor Swift,Our Song,Taylor Swift ,11,FALSE,TRUE,Country,D Major,89,10B,2006
+12,Taylor Swift,I’m Only Me When I’m With You,Taylor Swift,12,TRUE,FALSE,Country,A b Major,144,4B,2006
+13,Taylor Swift,Invisible,Taylor Swift,13,TRUE,FALSE,Country,G Major,96,9B,2006
+14,Taylor Swift,A Perfectly a Good Heart,Taylor Swift,14,TRUE,FALSE,Country,E Major,156,12B,2006
+15,Taylor Swift,Teardrops on My Guitar (pop version),Taylor Swift,15,TRUE,FALSE,Country,B b Major,100,6B,2006
+16,Taylor Swift,Jump Then Fall,Fearless,13,TRUE,FALSE,Country,D Major,80,10B,2008
+17,Taylor Swift,Untouchable,Fearless,14,TRUE,FALSE,Country,F Major,100,7B,2008
+18,Taylor Swift,Forever & Always (piano version),Fearless ,15,TRUE,FALSE,Country,A Major,120,11B,2008
+19,Taylor Swift,Come In With the Rain,Fearless ,16,TRUE,FALSE,Country,G Major,144,9B,2008
+20,Taylor Swift,SuperStar,Fearless ,17,TRUE,FALSE,Country,D Major,86,10B,2008
+21,Taylor Swift,The Other Side of the Door,Fearless,18,TRUE,FALSE,Country,E Major,82,12B,2008
+22,Taylor Swift ,Fearless,Fearless,1,FALSE,TRUE,Country,F Major,100,7B,2008
+23,Taylor Swift,Fifteen,Fearless,2,FALSE,TRUE,Country,G Major,95,9B,2008
+24,Taylor Swift ,Love Story,Fearless,3,FALSE,TRUE,Country,D Major,119,10B,2008
+25,Taylor Swift,Hey Stephen,Fearless,4,FALSE,FALSE,Country,F# Major,116,2B,2008
+26,Taylor Swift,White Horse,Fearless,5,FALSE,TRUE,Country,C Major,93,8B,2008
+27,Taylor Swift,You Belong With Me,Fearless,6,FALSE,TRUE,Country,F# Major,130,2B,2008
+28,Taylor Swift,Breathe (feat Colbie Cailat),Fearless,7,FALSE,FALSE,Country,D b Major,148,3B,2008
+29,Taylor Swift,Tell Me Why,Fearless,8,FALSE,FALSE,Country,G Major,100,9B,2008
+30,Taylor Swift ,You’re Not Sorry,Fearless,9,FALSE,FALSE,Country,F# Major,134,2B,2008
+31,Taylor Swift ,The Way I Loved You,Fearless,10,FALSE,FALSE,Country,F Major,161,7B,2008
+32,Taylor Swift,Forever & Always,Fearless,11,FALSE,FALSE,Country,B b Major,128,6B,2008
+33,Taylor Swift,The Best Day,Fearless,12,FALSE,FALSE,Country,D b Major,126,3B,2008
+34,Taylor Swift,Change,Fearless,19,FALSE,TRUE,Country,F Major,96,7B,2008
+35,Taylor Swift,Mine,Speak Now,1,FALSE,TRUE,Country,G Major,121,9B,2010
+36,Taylor Swift,Sparks Fly,Speak Now,2,FALSE,TRUE,Country,F Major,115,7B,2010
+37,Taylor Swift,Back to December,Speak Now,3,FALSE,TRUE,Country,D Major,142,10B,2010
+38,Taylor Swift,Speak Now,Speak Now,4,FALSE,FALSE,Country,E Major,164,12B,2010
+39,Taylor Swift,Dear John,Speak Now,5,FALSE,FALSE,Country,E Major,119,12B,2010
+40,Taylor Swift,Mean,Speak Now,6,FALSE,TRUE,Country,E Major,164,12B,2010
+41,Taylor Swift,The Story of Us,Speak Now,7,FALSE,TRUE,Country,E Major,140,12B,2010
+42,Taylor Swift,Never Grow Up,Speak Now,8,FALSE,FALSE,Country,D Major,125,10B,2010
+43,Taylor Swift,Enchanted,Speak Now,9,FALSE,FALSE,Country,A b Major,164,4B,2010
+44,Taylor Swift,Better Than Revenge,Speak Now,10,FALSE,FALSE,Country,B Minor,146,10A,2010
+45,Taylor Swift,Innocent,Speak Now,11,FALSE,FALSE,Country,D b Minor,134,12A,2010
+46,Taylor Swift,Haunted ,Speak Now,12,FALSE,FALSE,Country,F Major,162,7B,2010
+47,Taylor Swift,Last Kiss,Speak Now,13,FALSE,FALSE,Country,B b Major,89,6B,2010
+48,Taylor Swift,Long Live,Speak Now,14,FALSE,TRUE,Country,G Major,102,9B,2010
+49,Taylor Swift,Ours,Speak Now,15,TRUE,TRUE,Country,C Major,160,8B,2010
+50,Taylor Swift,If This Was a Movie,Speak Now,16,TRUE,FALSE,Country,E Major,148,12B,2010
+51,Taylor Swift,Superman,Speak Now,17,TRUE,FALSE,Country,G Major,132,9B,2010
+52,Taylor Swift,Back to December (acoustic),Speak Now,18,TRUE,FALSE,Country,D Major,142,10B,2010
+53,Taylor Swift,Haunted (acoustic),Speak Now,19,TRUE,FALSE,Country,F Major,81,7B,2010
+54,Taylor Swift,State of Grace,Red,1,FALSE,FALSE,Country,E Major,130,12B,2012
+55,Taylor Swift,Red,Red,2,FALSE,TRUE,Country,D b Minor,125,9A,2012
+56,Taylor Swift,Treacherous,Red,3,FALSE,FALSE,Country,D Major,110,10B,2012
+57,Taylor Swift,I Knew You Were Trouble.,Red,4,FALSE,TRUE,Country,F# Major,154,2B,2012
+58,Taylor Swift,All Too Well,Red,5,FALSE,FALSE,Country,C Major,93,8B,2012
+59,Taylor Swift,22,Red,6,FALSE,TRUE,Country,G Major,104,9B,2012
+60,Taylor Swift,I Almost Do,Red,7,FALSE,FALSE,Country,E Major,146,12B,2012
+61,Taylor Swift,We Are Never Ever Getting Back Together,Red,8,FALSE,TRUE,Country,G Major,86,9B,2012
+62,Taylor Swift,Stay Stay Stay,Red,9,FALSE,FALSE,Country,C Major,100,8B,2012
+63,Taylor Swift,The Last Time (feat. Gary Lightbody),Red,10,FALSE,TRUE,Country,D Major,94,10B,2012
+64,Taylor Swift,Holy Ground,Red,11,FALSE,FALSE,Country,A Major,157,11B,2012
+65,Taylor Swift,Sad Beautiful Tragic,Red,12,FALSE,FALSE,Country,G Major,130,9B,2012
+66,Taylor Swift,The Lucky One,Red,13,FALSE,FALSE,Country,E Major,118,12B,2012
+67,Taylor Swift,Everything Has Changed (feat  Ed Sheeran),Red,14,FALSE,TRUE,Country,F# Major,80,2B,2012
+68,Taylor Swift,Starlight,Red,15,FALSE,FALSE,Country,A Major,126,11B,2012
+69,Taylor Swift,Begin Again,Red,16,FALSE,TRUE,Country,G Major,79,9B,2012
+70,Taylor Swift,The Moment I Knew,Red,17,TRUE,FALSE,Country,G Major,126,9B,2012
+71,Taylor Swift,Come Back... Be Here,Red,18,TRUE,FALSE,Country,E Major,80,12B,2012
+72,Taylor Swift,Girl At Home,Red,19,TRUE,FALSE,Country,F Major,125,7B,2012
+73,Taylor Swift,State of Grace (acoustic),Red,20,TRUE,FALSE,Country,G Major,105,9B,2012
+74,Taylor Swift,Welcome To New York,1989,1,FALSE,FALSE,Pop,G Major,117,9B,2014
+75,Taylor Swift,Blank Space,1989,2,FALSE,TRUE,Pop,F Major,96,7B,2014
+76,Taylor Swift,Style,1989,3,FALSE,TRUE,Pop,D Major,95,10B,2014
+77,Taylor Swift,Out of the Woods,1989,4,FALSE,TRUE,Pop,G Major,92,9B,2014
+78,Taylor Swift,All You Had To Do Was Stay,1988,5,FALSE,FALSE,Pop,F Major,97,7B,2014
+79,Taylor Swift,Shake It Off,1989,6,FALSE,TRUE,Pop,G Major,160,9B,2014
+80,Taylor Swift,I Wish You Would,1989,7,FALSE,FALSE,Pop,C Major,118,8B,2014
+81,Taylor Swift,Bad Blood,1989,8,FALSE,FALSE,Pop,G Major,170,9B,2014
+82,Taylor Swift,Wildest Dreams ,1989,9,FALSE,TRUE,Pop,A b Major,140,4B,2014
+83,Taylor Swift,How You Get the Girl,1989,10,FALSE,FALSE,Pop,F Major,120,7B,2014
+84,Taylor Swift,This Love,1989,11,FALSE,FALSE,Pop,E Major,72,12B,2014
+85,Taylor Swift,I Know Places,1989,12,FALSE,FALSE,Pop,C Major,160,8B,2014
+86,Taylor Swift,Clean,1989,13,FALSE,FALSE,Pop,E Major,104,12B,2014
+87,Taylor Swift,Wonderland ,1989,14,TRUE,FALSE,Pop,E b Major,92,5B,2014
+88,Taylor Swift,You Are In Love,1989,15,TRUE,FALSE,Pop,D Major,170,10B,2014
+89,Taylor Swift,New Romantics,1989,16,TRUE,TRUE,Pop,F Major,122,7B,2014
+90,Taylor Swift,...Ready For It?,reputation,1,FALSE,TRUE,Pop,D Major,160,10B,2017
+91,Taylor Swift,End Game (feat. Ed Sheeran & Future),reputation,2,FALSE,TRUE,Pop,D Major,159,10B,2017
+92,Taylor Swift,I Did Something Bad,reputation,3,FALSE,FALSE,Pop,C Minor,83,5A,2017
+93,Taylor Swift,Don’t Blame Me,reputation,4,FALSE,FALSE,Pop,A Minor,136,8A,2017
+94,Taylor Swift,Delicate,reputation,5,FALSE,TRUE,Pop,A Minor,95,8A,2017
+95,Taylor Swift,Look What You Made Me Do,reputation,6,FALSE,TRUE,Pop,A Minor,128,8A,2017
+96,Taylor Swift,So It Goes...,reputation,7,FALSE,FALSE,Pop,D Major,75,10B,2017
+97,Taylor Swift,Gorgeous,reputation,8,FALSE,TRUE,Pop,G Major,92,9B,2017
+98,Taylor Swift,Getaway Car,reputation,9,FALSE,TRUE,Pop,D Major,172,10B,2017
+99,Taylor Swift,King Of My Heart,reputation,10,FALSE,FALSE,Pop,C Major,110,8B,2017
+100,Taylor Swift,Dancing With Our Hands Tied,reputation,11,FALSE,FALSE,Pop,C Minor,160,5A,2017
+101,Taylor Swift,Dress,reputation,12,FALSE,FALSE,Pop,C Major,120,8B,2017
+102,Taylor Swift,This Is Why We Can’t Have Nice Things,reputation,13,FALSE,FALSE,Pop,F Major,164,7B,2017
+103,Taylor Swift,Call it What You WaNot,reputation,14,FALSE,FALSE,Pop,A Major,164,11B,2017
+104,Taylor Swift,New Year’s Days,reputation,15,FALSE,TRUE,Pop,C Major,95,8B,2017
+106,Taylor Swift,I Forgot That You Existed,Lover,1,FALSE,FALSE,Pop,F Major,95,7B,2019
+107,Taylor Swift,Cruel Summer,Lover,2,FALSE,FALSE,Pop,A Major,170,11B,2019
+108,Taylor Swift,Lover,Lover,3,FALSE,TRUE,Pop,G Major,103,9B,2019
+109,Taylor Swift,The Man,Lover,4,FALSE,FALSE,Pop,C Major,110,8B,2019
+110,Taylor Swift,The Archer,Lover,5,FALSE,FALSE,Pop,C Major,124,8B,2019
+111,Taylor Swift,I Think He Knows,Lover,6,FALSE,FALSE,Pop,C Major,100,8B,2019
+112,Taylor Swift,Miss Americana & the Heartbreak Prince,Lover,7,FALSE,FALSE,Pop,B Minor,150,10A,2019
+113,Taylor Swift,Paper Rings,Lover,8,FALSE,FALSE,Pop,A Major,104,11B,2019
+114,Taylor Swift,Cornelia Street,Lover,9,FALSE,FALSE,Pop,C Major,102,8B,2019
+115,Taylor Swift,Death By a Thousand Cuts,Lover,10,FALSE,FALSE,Pop,E Major,94,12B,2019
+116,Taylor Swift,London Boy,Lover,11,FALSE,FALSE,Pop,Db Major,158,3B,2019
+117,Taylor Swift,Soon You’ll Get Better (feat. Dixie Chicks),Lover,12,FALSE,FALSE,Pop,C Major,104,8B,2019
+118,Taylor Swift,False God,Lover,13,FALSE,FALSE,Pop,B Minor,80,10A,2019
+119,Taylor Swift,You Need To Calm Down,Lover,14,FALSE,TRUE,Pop,D Major,85,10B,2019
+120,Taylor Swift,Afterglow,Lover,15,FALSE,FALSE,Pop,A Major,111,11B,2019
+121,Taylor Swift,ME! (feat. Brendon Urie of Panic! At the Disco),Lover,16,FALSE,TRUE,Pop,C Major,91,8B,2019
+122,Taylor Swift,It’s Nice To Have a Friend,Lover,17,FALSE,FALSE,Pop,Bb Major,70,6B,2019
+123,Taylor Swift,Daylight,Lover,18,FALSE,FALSE,Pop,C Major,150,8B,2019
+124,Taylor Swift,Crazier,Hannah Montana The Movie,0,FALSE,FALSE,Country,E Major,133,12B,2009
+125,Taylor Swift,Today Was a Fairytale,Valentine’s Day,0,FALSE,TRUE,Country,G Major,158,9B,2010
+126,Taylor Swift,Safe & Sound,The Hunger Games,0,FALSE,TRUE,Country,G Major,144,9B,2011
+127,Taylor Swift,Eyes Open,The Hunger Games,0,FALSE,TRUE,Country,G Major,137,9B,2011
+128,Taylor Swift,Sweeter Than Fiction,One Chance,0,FALSE,TRUE,Country,F# Major,135,2B,2013
+129,Taylor Swift,I Don’t Wanna Live Forever (feat. Zayn),Fifty Shades Darker,0,FALSE,TRUE,Pop,C Major,118,8B,2016
+130,Taylor Swift,Bad Blood (feat. Kendrick Lamar),Remix,0,FALSE,TRUE,Pop,D Major,170,10B,2015
