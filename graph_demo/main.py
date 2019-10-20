@@ -4,7 +4,7 @@ from song_graph import SongGraph
 import csv
 import graph_algs
 
-SONGCSV = "songs-demo.csv"
+SONGCSV = "songs.csv"
 
 def createSongs():
     songFile = open(SONGCSV)
@@ -24,7 +24,7 @@ def createSongs():
 def main():
     songList = createSongs()
     #print(len(songList))
-    graph = SongGraph(songList, songList[3], songList[4])
+    graph = SongGraph(songList, songList[76], songList[90])
     #print(str(graph))
     #print(songList)
     #graph.editGraphForSearch(76,46)
