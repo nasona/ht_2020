@@ -93,3 +93,10 @@ def songAlreadyInPlaylist(compVertex, graph, startVertex, endVertex, tracker):
         if graph.getVertex(vertex).getSong() == compVertex.getSong():
             return True
     return False
+
+def artistAlreadyInPlaylist(compVertex, graph, startVertex, endVertex, tracker):
+    path = getPath(startVertex, endVertex, tracker)
+    for vertex in path:
+        if graph.getVertex(vertex).getSong() == compVertex.getSong():
+            return True
+    return False
