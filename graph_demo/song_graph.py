@@ -7,8 +7,9 @@ Class to create a graph made up of songs
 
 Citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
 """
-WEIGHTS = {"camelot": 7, "bpm": 5, "track number": 3, "single": 2, "album": 1, "year and genre": 1}
+WEIGHTS = {"camelot": 4, "bpm": 4, "track number": 0, "single": 2, "album": 1, "year and genre": 4}
 MINIMUM_PLAYLIST_LENGTH = 8
+BPM_RANGE = 20
 #fully connected graph and need to figure out a way to force a path of a minimum length
 #mulitple levels of the same songs
 #don't include intermediate level in the final song
@@ -321,9 +322,9 @@ class Song(object):
         return self._camelot.isCompatible(other._camelot)
 
     def isBpmCompatible(self, other):
-        """returns true if two songs are within 10 bpm of each other
+        """returns true if two songs are within 20 bpm of each other
         and false otherwise"""
-        if self._bpm - other._bpm >= -10 and self._bpm - other._bpm <= 10:
+        if self._bpm - other._bpm >= -BPM_RANGE and self._bpm - other._bpm <= BPM_RANGE:
             return True
         else:
             return False
