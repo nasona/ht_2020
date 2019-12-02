@@ -7,10 +7,20 @@ Class to create a graph made up of songs
 
 Citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
 """
-WEIGHTS = {"camelot": 4, "bpm": 4, "track number": 0, "single": 2, "album": 1, "year and genre": 4}
+WEIGHTS = {"camelot": 4, "bpm": 4, "track number": 0, "single": 2, "album": 2, "year and genre": 1, "style": 2, "mood": 2}
 MINIMUM_PLAYLIST_LENGTH = 8
 BPM_RANGE = 20
 MIN_BPM_CHANGE = 5
+YEAR_THRESHOLD = 2
+
+#weights from research (weighted so higher is less similar and smaller is more similar)
+#two tracks have same style (genius tags), vocal code (artist gender), mood (spotify playlist): 1
+#two tracks have same style (genius tags): 2
+#two tracks have same subgenre (pop vs. country, etc.): 4
+#track is on album: 1
+#album is by artist: 2
+#matching beats (no weight): camelot and bpm
+
 #fully connected graph and need to figure out a way to force a path of a minimum length
 #mulitple levels of the same songs
 #don't include intermediate level in the final song
@@ -302,7 +312,7 @@ class Camelot(object):
         return str(self._hour) + self._wheel
 
 class Song(object):
-    def __init__(self, id, artist, title, album, trackNumber, deluxeOnly, single, genre, key, bpm, camelot, year):
+    def __init__(self, id, artist, title, album, trackNumber, deluxeOnly, single, genre, key, bpm, camelot, year, tags=None, playlists=None):
         """initializes the song object with the provided information"""
         self._id = id
         self._artist = artist
@@ -316,6 +326,8 @@ class Song(object):
         self._bpm = bpm
         self._camelot = camelot
         self._year = year
+        self._tags = tags
+        self._playlists = playlists
 
     def isCamelotCompatible(self, other):
         """returns true if two songs follow the correct
@@ -339,6 +351,25 @@ class Song(object):
         else:
             return False
 
+    def numberOfSameTags(self, other):
+        """returns how many tags the two songs have that are
+        the same"""
+        count = 0
+        if self._tags and other._tags != None:
+            for tag in self._tags:
+                if tag in other._tags:
+                    count += 1
+        return count
+
+    def numberOfSamePlaylists(self, other):
+        """returns how many playlists the two songs are on togehter"""
+        count = 0
+        if self._playlists and other._playlists != None:
+            for tag in self._playlists:
+                if tag in other._playlists:
+                    count += 1
+        return count
+
     def singleStatus(self, other):
         """returns true if the song was a radio single
         and false otherwise"""
@@ -358,7 +389,7 @@ class Song(object):
     def similarYear(self, other):
         """returns true if the year the song was released within
         three years of each other or false otherwise"""
-        if self._year - other._year >= -2 and self._year <= 2:
+        if self._year - other._year >= -YEAR_THRESHOLD and self._year <= YEAR_THRESHOLD:
             return True
         else:
             return False
@@ -486,6 +517,10 @@ class SongGraph(WeightedUndirectedGraph):
                         weight += WEIGHTS["album"]
                     if mainVertex._song.similarYear(compVertex._song) and mainVertex._song.hasSameGenre(compVertex._song):
                         weight += WEIGHTS["year and genre"]
+                    if mainVertex._song.numberOfSameTags(compVertex._song) > 0:
+                        weight += WEIGHTS["style"]
+                    if mainVertex._song.numberOfSamePlaylists(compVertex._song) > 0:
+                        weight += WEIGHTS["mood"]
                 if weight > 0:
                     self.addEdge(mainVertex._label, compVertex._label, self.maxPossibleEdgeWeight() + 1 - weight)
                 weight = 0
