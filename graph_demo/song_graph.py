@@ -329,6 +329,9 @@ class Song(object):
         self._tags = tags
         self._playlists = playlists
 
+    def getArtist(self):
+        return self._artist
+
     def isCamelotCompatible(self, other):
         """returns true if two songs follow the correct
         camelot rules for compatibility and false otherwise"""

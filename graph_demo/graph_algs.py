@@ -11,6 +11,7 @@ the playlists
 #the messenger metroidvania
 MINIMUM_PLAYLIST_LENGTH = 8
 BIG_NUMBER = 10000000
+ARIST_SELF_AVOIDANCE = False
 def calculateEstimatedDistance(graph, layer):
     return graph.maxPossibleEdgeWeight()//2 * (MINIMUM_PLAYLIST_LENGTH - layer)
 
@@ -55,7 +56,11 @@ def aStar(graph):
                 #Calculate a new distance: 	F's distance + edge's weight + estimated distance to goal
                 #tracker[vertex.getLabel()]["distance"]
                 if songAlreadyInPlaylist(vertex, graph, graph.getStartVertex(), chosenVertex, tracker):
+                    #add biggest number
                     newDistance = tracker[chosenVertex.getLabel()]["distance"] + edge.getWeight() + calculateEstimatedDistance(graph, chosenVertex._layer) + BIG_NUMBER
+                elif ARTIST_SELF_AVOIDANCE and artistAlreadyInPlaylist(vertex, graph, graph.getStartVertex(), chosenVertex, tracker):
+                    #add big number (less than if song is already in playlist because less similar)
+                    newDistance = tracker[chosenVertex.getLabel()]["distance"] + edge.getWeight() + calculateEstimatedDistance(graph, chosenVertex._layer) + BIG_NUMBER//2
                 else:
                     newDistance = tracker[chosenVertex.getLabel()]["distance"] + edge.getWeight() + calculateEstimatedDistance(graph, chosenVertex._layer)
                 #If new distance < T's distance in the results list
@@ -97,6 +102,6 @@ def songAlreadyInPlaylist(compVertex, graph, startVertex, endVertex, tracker):
 def artistAlreadyInPlaylist(compVertex, graph, startVertex, endVertex, tracker):
     path = getPath(startVertex, endVertex, tracker)
     for vertex in path:
-        if graph.getVertex(vertex).getSong() == compVertex.getSong():
+        if graph.getVertex(vertex).getSong().getArtist() == compVertex.getSong().getArtist():
             return True
     return False
