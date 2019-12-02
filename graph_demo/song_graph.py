@@ -10,6 +10,7 @@ Citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
 WEIGHTS = {"camelot": 4, "bpm": 4, "track number": 0, "single": 2, "album": 1, "year and genre": 4}
 MINIMUM_PLAYLIST_LENGTH = 8
 BPM_RANGE = 20
+MIN_BPM_CHANGE = 5
 #fully connected graph and need to figure out a way to force a path of a minimum length
 #mulitple levels of the same songs
 #don't include intermediate level in the final song
@@ -325,7 +326,8 @@ class Song(object):
         """returns true if two songs are within 20 bpm of each other
         and false otherwise"""
         if self._bpm - other._bpm >= -BPM_RANGE and self._bpm - other._bpm <= BPM_RANGE:
-            return True
+            if self._bpm - other._bpm >= MIN_BPM_CHANGE and self._bpm - other._bpm <= -MIN_BPM_CHANGE:
+                return True
         else:
             return False
 
