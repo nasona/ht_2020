@@ -9,9 +9,10 @@ the playlists
 #percpetion of music, how people perceive music as similar, djs guide for setlist
 #look for similar research like it but not the same topic
 #the messenger metroidvania
-MINIMUM_PLAYLIST_LENGTH = 8
+MINIMUM_PLAYLIST_LENGTH = 4
 BIG_NUMBER = 10000000
-ARIST_SELF_AVOIDANCE = False
+ARTIST_SELF_AVOIDANCE = False
+
 def calculateEstimatedDistance(graph, layer):
     return graph.maxPossibleEdgeWeight()//2 * (MINIMUM_PLAYLIST_LENGTH - layer)
 
@@ -64,7 +65,6 @@ def aStar(graph):
                 else:
                     newDistance = tracker[chosenVertex.getLabel()]["distance"] + edge.getWeight() + calculateEstimatedDistance(graph, chosenVertex._layer)
                 #If new distance < T's distance in the results list
-
                 if newDistance < tracker[vertex.getLabel()]["distance"]:
                     #Set T's distance to new distance
                     tracker[vertex.getLabel()]["distance"] = newDistance
@@ -78,11 +78,14 @@ def aStar(graph):
     return tracker
 
 def prettyPath(graph, tracker):
-    prettyPrint = ""
-    path = getPath(graph.getStartVertex(), graph.getEndVertex(), tracker)
-    for vertexLabel in path:
-        prettyPrint += str(graph.getVertex(vertexLabel).getSong()) + "\n"
-    return prettyPrint
+    try:
+        prettyPrint = ""
+        path = getPath(graph.getStartVertex(), graph.getEndVertex(), tracker)
+        for vertexLabel in path:
+            prettyPrint += str(graph.getVertex(vertexLabel).getSong()) + "\n"
+        return prettyPrint
+    except:
+        print("There is no path between these songs.")
 
 def getPath(startVertex, endVertex, tracker):
     currentSong = endVertex.getLabel()

@@ -8,7 +8,7 @@ Class to create a graph made up of songs
 Citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
 """
 WEIGHTS = {"camelot": 4, "bpm": 4, "track number": 0, "single": 2, "album": 2, "year and genre": 1, "style": 2, "mood": 2}
-MINIMUM_PLAYLIST_LENGTH = 8
+MINIMUM_PLAYLIST_LENGTH = 4
 BPM_RANGE = 20
 MIN_BPM_CHANGE = 5
 YEAR_THRESHOLD = 2
