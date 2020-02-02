@@ -3,6 +3,7 @@ from song_graph import Camelot
 from song_graph import SongGraph
 import csv
 import graph_algs
+import random
 
 SONGCSV = "songs-demo.csv"
 TAGCSV = "tags-demo.csv"
@@ -35,12 +36,29 @@ def createSongs():
         songList.append(song)
     return songList
 
+def chooseTheSongs(songList, startSong, endSong, bagSize):
+    potentialPlaylist = []
+    potentialPlaylist.append(startSong)
+    songList.remove(startSong)
+    potentialPlaylist.append(endSong)
+    songList.remove(endSong)
+    for i in range(bagSize):
+        newSong = random.choice(songList)
+        songList.remove(newSong)
+        potentialPlaylist.append(newSong)
+    return potentialPlaylist
+
+
 def main():
     print("Creating Song Objects...")
     songList = createSongs()
     startSong = songList[3]
     endSong = songList[4]
+    chooseList = chooseTheSongs(songList, startSong, endSong, 5)
+    print(chooseList)
+    print(len(chooseList))
     #print(len(songList))
+    """
     print()
     print("Constructing Graph...")
     graph = SongGraph(songList, startSong, endSong)
@@ -56,6 +74,7 @@ def main():
     #print(result)
     print()
     print(graph_algs.prettyPath(graph, result))
+    """
 
 
 if __name__ == "__main__":
