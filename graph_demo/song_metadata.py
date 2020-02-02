@@ -6,8 +6,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-SONGCSV = "songs-demo.csv"
-TAGCSV = "tags-demo.csv"
+SONGCSV = "songs.csv"
+TAGCSV = "tags.csv"
 
 class SongTagScraper(object):
     def __init__(self, artist, song):
@@ -62,12 +62,16 @@ def main():
     songFile = open(SONGCSV, "r")
     songData = csv.reader(songFile, delimiter=',')
     firstRow = next(songData)
+    newCount = 0
     for line in songData:
+        if newCount >= 25:
+            break
         if not (line[0], line[1], line[2]) in artistWithSong:
             scrape = SongTagScraper(line[1], line[2])
             scrape.tagSongs()
             artistWithSong[(line[0], line[1], line[2])] = scrape.returnTags()
-            print(line[2],  "by", line[1], "complete.")
+            print(str(newCount), ".", line[2],  "by", line[1], "complete.")
+            newCount += 1
         else:
             print(line[2],  "by", line[1], "already exists.")
 

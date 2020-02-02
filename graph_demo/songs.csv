@@ -1,130 +1,822 @@
-id,artist,song_title,album,track_number,deluxe_only,single,genre,key,bpm,camelot,year
-1,Taylor Swift,Tim McGraw,Taylor Swift,1,FALSE,TRUE,Country,C Major,152,8B,2006
-2,Taylor Swift,Picture to Burn,Taylor Swift,2,FALSE,TRUE,Country,G Major,106,9B,2006
-3,Taylor Swift,Teardrops on My Guitar,Taylor Swift,3,FALSE,TRUE,Country,B b Major,100,6B,2006
-4,Taylor Swift,A Place In This World,Taylor Swift,4,FALSE,FALSE,Country,A Major,115,11B,2006
-5,Taylor Swift,Cold As You,Taylor Swift,5,FALSE,FALSE,Country,F Major,176,7B,2006
-6,Taylor Swift,The Outside,Taylor Swift,6,FALSE,FALSE,Country,F Major,113,7B,2006
-7,Taylor Swift,Tied Together With a Smile,Taylor Swift,7,FALSE,FALSE,Country,D Major,146,10B,2006
-8,Taylor Swift,Stay Beautiful,Taylor Swift,8,FALSE,FALSE,Country,A b Major,132,4B,2006
-9,Taylor Swift,Should’ve Said No,Taylor Swift,9,FALSE,TRUE,Country,E Minor,168,9A,2006
-10,Taylor Swift,Mary’s Song (Oh My My My),Taylor Swift,10,FALSE,FALSE,Country,D Major,151,10B,2006
-11,Taylor Swift,Our Song,Taylor Swift ,11,FALSE,TRUE,Country,D Major,89,10B,2006
-12,Taylor Swift,I’m Only Me When I’m With You,Taylor Swift,12,TRUE,FALSE,Country,A b Major,144,4B,2006
-13,Taylor Swift,Invisible,Taylor Swift,13,TRUE,FALSE,Country,G Major,96,9B,2006
-14,Taylor Swift,A Perfectly a Good Heart,Taylor Swift,14,TRUE,FALSE,Country,E Major,156,12B,2006
-15,Taylor Swift,Teardrops on My Guitar (pop version),Taylor Swift,15,TRUE,FALSE,Country,B b Major,100,6B,2006
-16,Taylor Swift,Jump Then Fall,Fearless,13,TRUE,FALSE,Country,D Major,80,10B,2008
-17,Taylor Swift,Untouchable,Fearless,14,TRUE,FALSE,Country,F Major,100,7B,2008
-18,Taylor Swift,Forever & Always (piano version),Fearless ,15,TRUE,FALSE,Country,A Major,120,11B,2008
-19,Taylor Swift,Come In With the Rain,Fearless ,16,TRUE,FALSE,Country,G Major,144,9B,2008
-20,Taylor Swift,SuperStar,Fearless ,17,TRUE,FALSE,Country,D Major,86,10B,2008
-21,Taylor Swift,The Other Side of the Door,Fearless,18,TRUE,FALSE,Country,E Major,82,12B,2008
-22,Taylor Swift ,Fearless,Fearless,1,FALSE,TRUE,Country,F Major,100,7B,2008
-23,Taylor Swift,Fifteen,Fearless,2,FALSE,TRUE,Country,G Major,95,9B,2008
-24,Taylor Swift ,Love Story,Fearless,3,FALSE,TRUE,Country,D Major,119,10B,2008
-25,Taylor Swift,Hey Stephen,Fearless,4,FALSE,FALSE,Country,F# Major,116,2B,2008
-26,Taylor Swift,White Horse,Fearless,5,FALSE,TRUE,Country,C Major,93,8B,2008
-27,Taylor Swift,You Belong With Me,Fearless,6,FALSE,TRUE,Country,F# Major,130,2B,2008
-28,Taylor Swift,Breathe (feat Colbie Cailat),Fearless,7,FALSE,FALSE,Country,D b Major,148,3B,2008
-29,Taylor Swift,Tell Me Why,Fearless,8,FALSE,FALSE,Country,G Major,100,9B,2008
-30,Taylor Swift ,You’re Not Sorry,Fearless,9,FALSE,FALSE,Country,F# Major,134,2B,2008
-31,Taylor Swift ,The Way I Loved You,Fearless,10,FALSE,FALSE,Country,F Major,161,7B,2008
-32,Taylor Swift,Forever & Always,Fearless,11,FALSE,FALSE,Country,B b Major,128,6B,2008
-33,Taylor Swift,The Best Day,Fearless,12,FALSE,FALSE,Country,D b Major,126,3B,2008
-34,Taylor Swift,Change,Fearless,19,FALSE,TRUE,Country,F Major,96,7B,2008
-35,Taylor Swift,Mine,Speak Now,1,FALSE,TRUE,Country,G Major,121,9B,2010
-36,Taylor Swift,Sparks Fly,Speak Now,2,FALSE,TRUE,Country,F Major,115,7B,2010
-37,Taylor Swift,Back to December,Speak Now,3,FALSE,TRUE,Country,D Major,142,10B,2010
-38,Taylor Swift,Speak Now,Speak Now,4,FALSE,FALSE,Country,E Major,164,12B,2010
-39,Taylor Swift,Dear John,Speak Now,5,FALSE,FALSE,Country,E Major,119,12B,2010
-40,Taylor Swift,Mean,Speak Now,6,FALSE,TRUE,Country,E Major,164,12B,2010
-41,Taylor Swift,The Story of Us,Speak Now,7,FALSE,TRUE,Country,E Major,140,12B,2010
-42,Taylor Swift,Never Grow Up,Speak Now,8,FALSE,FALSE,Country,D Major,125,10B,2010
-43,Taylor Swift,Enchanted,Speak Now,9,FALSE,FALSE,Country,A b Major,164,4B,2010
-44,Taylor Swift,Better Than Revenge,Speak Now,10,FALSE,FALSE,Country,B Minor,146,10A,2010
-45,Taylor Swift,Innocent,Speak Now,11,FALSE,FALSE,Country,D b Minor,134,12A,2010
-46,Taylor Swift,Haunted ,Speak Now,12,FALSE,FALSE,Country,F Major,162,7B,2010
-47,Taylor Swift,Last Kiss,Speak Now,13,FALSE,FALSE,Country,B b Major,89,6B,2010
-48,Taylor Swift,Long Live,Speak Now,14,FALSE,TRUE,Country,G Major,102,9B,2010
-49,Taylor Swift,Ours,Speak Now,15,TRUE,TRUE,Country,C Major,160,8B,2010
-50,Taylor Swift,If This Was a Movie,Speak Now,16,TRUE,FALSE,Country,E Major,148,12B,2010
-51,Taylor Swift,Superman,Speak Now,17,TRUE,FALSE,Country,G Major,132,9B,2010
-52,Taylor Swift,Back to December (acoustic),Speak Now,18,TRUE,FALSE,Country,D Major,142,10B,2010
-53,Taylor Swift,Haunted (acoustic),Speak Now,19,TRUE,FALSE,Country,F Major,81,7B,2010
-54,Taylor Swift,State of Grace,Red,1,FALSE,FALSE,Country,E Major,130,12B,2012
-55,Taylor Swift,Red,Red,2,FALSE,TRUE,Country,D b Minor,125,9A,2012
-56,Taylor Swift,Treacherous,Red,3,FALSE,FALSE,Country,D Major,110,10B,2012
-57,Taylor Swift,I Knew You Were Trouble.,Red,4,FALSE,TRUE,Country,F# Major,154,2B,2012
-58,Taylor Swift,All Too Well,Red,5,FALSE,FALSE,Country,C Major,93,8B,2012
-59,Taylor Swift,22,Red,6,FALSE,TRUE,Country,G Major,104,9B,2012
-60,Taylor Swift,I Almost Do,Red,7,FALSE,FALSE,Country,E Major,146,12B,2012
-61,Taylor Swift,We Are Never Ever Getting Back Together,Red,8,FALSE,TRUE,Country,G Major,86,9B,2012
-62,Taylor Swift,Stay Stay Stay,Red,9,FALSE,FALSE,Country,C Major,100,8B,2012
-63,Taylor Swift,The Last Time (feat. Gary Lightbody),Red,10,FALSE,TRUE,Country,D Major,94,10B,2012
-64,Taylor Swift,Holy Ground,Red,11,FALSE,FALSE,Country,A Major,157,11B,2012
-65,Taylor Swift,Sad Beautiful Tragic,Red,12,FALSE,FALSE,Country,G Major,130,9B,2012
-66,Taylor Swift,The Lucky One,Red,13,FALSE,FALSE,Country,E Major,118,12B,2012
-67,Taylor Swift,Everything Has Changed (feat  Ed Sheeran),Red,14,FALSE,TRUE,Country,F# Major,80,2B,2012
-68,Taylor Swift,Starlight,Red,15,FALSE,FALSE,Country,A Major,126,11B,2012
-69,Taylor Swift,Begin Again,Red,16,FALSE,TRUE,Country,G Major,79,9B,2012
-70,Taylor Swift,The Moment I Knew,Red,17,TRUE,FALSE,Country,G Major,126,9B,2012
-71,Taylor Swift,Come Back... Be Here,Red,18,TRUE,FALSE,Country,E Major,80,12B,2012
-72,Taylor Swift,Girl At Home,Red,19,TRUE,FALSE,Country,F Major,125,7B,2012
-73,Taylor Swift,State of Grace (acoustic),Red,20,TRUE,FALSE,Country,G Major,105,9B,2012
-74,Taylor Swift,Welcome To New York,1989,1,FALSE,FALSE,Pop,G Major,117,9B,2014
-75,Taylor Swift,Blank Space,1989,2,FALSE,TRUE,Pop,F Major,96,7B,2014
-76,Taylor Swift,Style,1989,3,FALSE,TRUE,Pop,D Major,95,10B,2014
-77,Taylor Swift,Out of the Woods,1989,4,FALSE,TRUE,Pop,G Major,92,9B,2014
-78,Taylor Swift,All You Had To Do Was Stay,1988,5,FALSE,FALSE,Pop,F Major,97,7B,2014
-79,Taylor Swift,Shake It Off,1989,6,FALSE,TRUE,Pop,G Major,160,9B,2014
-80,Taylor Swift,I Wish You Would,1989,7,FALSE,FALSE,Pop,C Major,118,8B,2014
-81,Taylor Swift,Bad Blood,1989,8,FALSE,FALSE,Pop,G Major,170,9B,2014
-82,Taylor Swift,Wildest Dreams ,1989,9,FALSE,TRUE,Pop,A b Major,140,4B,2014
-83,Taylor Swift,How You Get the Girl,1989,10,FALSE,FALSE,Pop,F Major,120,7B,2014
-84,Taylor Swift,This Love,1989,11,FALSE,FALSE,Pop,E Major,72,12B,2014
-85,Taylor Swift,I Know Places,1989,12,FALSE,FALSE,Pop,C Major,160,8B,2014
-86,Taylor Swift,Clean,1989,13,FALSE,FALSE,Pop,E Major,104,12B,2014
-87,Taylor Swift,Wonderland ,1989,14,TRUE,FALSE,Pop,E b Major,92,5B,2014
-88,Taylor Swift,You Are In Love,1989,15,TRUE,FALSE,Pop,D Major,170,10B,2014
-89,Taylor Swift,New Romantics,1989,16,TRUE,TRUE,Pop,F Major,122,7B,2014
-90,Taylor Swift,...Ready For It?,reputation,1,FALSE,TRUE,Pop,D Major,160,10B,2017
-91,Taylor Swift,End Game (feat. Ed Sheeran & Future),reputation,2,FALSE,TRUE,Pop,D Major,159,10B,2017
-92,Taylor Swift,I Did Something Bad,reputation,3,FALSE,FALSE,Pop,C Minor,83,5A,2017
-93,Taylor Swift,Don’t Blame Me,reputation,4,FALSE,FALSE,Pop,A Minor,136,8A,2017
-94,Taylor Swift,Delicate,reputation,5,FALSE,TRUE,Pop,A Minor,95,8A,2017
-95,Taylor Swift,Look What You Made Me Do,reputation,6,FALSE,TRUE,Pop,A Minor,128,8A,2017
-96,Taylor Swift,So It Goes...,reputation,7,FALSE,FALSE,Pop,D Major,75,10B,2017
-97,Taylor Swift,Gorgeous,reputation,8,FALSE,TRUE,Pop,G Major,92,9B,2017
-98,Taylor Swift,Getaway Car,reputation,9,FALSE,TRUE,Pop,D Major,172,10B,2017
-99,Taylor Swift,King Of My Heart,reputation,10,FALSE,FALSE,Pop,C Major,110,8B,2017
-100,Taylor Swift,Dancing With Our Hands Tied,reputation,11,FALSE,FALSE,Pop,C Minor,160,5A,2017
-101,Taylor Swift,Dress,reputation,12,FALSE,FALSE,Pop,C Major,120,8B,2017
-102,Taylor Swift,This Is Why We Can’t Have Nice Things,reputation,13,FALSE,FALSE,Pop,F Major,164,7B,2017
-103,Taylor Swift,Call it What You WaNot,reputation,14,FALSE,FALSE,Pop,A Major,164,11B,2017
-104,Taylor Swift,New Year’s Days,reputation,15,FALSE,TRUE,Pop,C Major,95,8B,2017
-106,Taylor Swift,I Forgot That You Existed,Lover,1,FALSE,FALSE,Pop,F Major,95,7B,2019
-107,Taylor Swift,Cruel Summer,Lover,2,FALSE,FALSE,Pop,A Major,170,11B,2019
-108,Taylor Swift,Lover,Lover,3,FALSE,TRUE,Pop,G Major,103,9B,2019
-109,Taylor Swift,The Man,Lover,4,FALSE,FALSE,Pop,C Major,110,8B,2019
-110,Taylor Swift,The Archer,Lover,5,FALSE,FALSE,Pop,C Major,124,8B,2019
-111,Taylor Swift,I Think He Knows,Lover,6,FALSE,FALSE,Pop,C Major,100,8B,2019
-112,Taylor Swift,Miss Americana & the Heartbreak Prince,Lover,7,FALSE,FALSE,Pop,B Minor,150,10A,2019
-113,Taylor Swift,Paper Rings,Lover,8,FALSE,FALSE,Pop,A Major,104,11B,2019
-114,Taylor Swift,Cornelia Street,Lover,9,FALSE,FALSE,Pop,C Major,102,8B,2019
-115,Taylor Swift,Death By a Thousand Cuts,Lover,10,FALSE,FALSE,Pop,E Major,94,12B,2019
-116,Taylor Swift,London Boy,Lover,11,FALSE,FALSE,Pop,Db Major,158,3B,2019
-117,Taylor Swift,Soon You’ll Get Better (feat. Dixie Chicks),Lover,12,FALSE,FALSE,Pop,C Major,104,8B,2019
-118,Taylor Swift,False God,Lover,13,FALSE,FALSE,Pop,B Minor,80,10A,2019
-119,Taylor Swift,You Need To Calm Down,Lover,14,FALSE,TRUE,Pop,D Major,85,10B,2019
-120,Taylor Swift,Afterglow,Lover,15,FALSE,FALSE,Pop,A Major,111,11B,2019
-121,Taylor Swift,ME! (feat. Brendon Urie of Panic! At the Disco),Lover,16,FALSE,TRUE,Pop,C Major,91,8B,2019
-122,Taylor Swift,It’s Nice To Have a Friend,Lover,17,FALSE,FALSE,Pop,Bb Major,70,6B,2019
-123,Taylor Swift,Daylight,Lover,18,FALSE,FALSE,Pop,C Major,150,8B,2019
-124,Taylor Swift,Crazier,Hannah Montana The Movie,0,FALSE,FALSE,Country,E Major,133,12B,2009
-125,Taylor Swift,Today Was a Fairytale,Valentine’s Day,0,FALSE,TRUE,Country,G Major,158,9B,2010
-126,Taylor Swift,Safe & Sound,The Hunger Games,0,FALSE,TRUE,Country,G Major,144,9B,2011
-127,Taylor Swift,Eyes Open,The Hunger Games,0,FALSE,TRUE,Country,G Major,137,9B,2011
-128,Taylor Swift,Sweeter Than Fiction,One Chance,0,FALSE,TRUE,Country,F# Major,135,2B,2013
-129,Taylor Swift,I Don’t Wanna Live Forever (feat. Zayn),Fifty Shades Darker,0,FALSE,TRUE,Pop,C Major,118,8B,2016
-130,Taylor Swift,Bad Blood (feat. Kendrick Lamar),Remix,0,FALSE,TRUE,Pop,D Major,170,10B,2015
+id,artist,song_title,album,track_number,deluxe_only,single,genre,key,bpm,camelot,year,feature
+1,Taylor Swift,Tim McGraw,Taylor Swift,1,FALSE,TRUE,Country,C Major,152,8B,2006,None
+2,Taylor Swift,Picture to Burn,Taylor Swift,2,FALSE,TRUE,Country,G Major,106,9B,2006,None
+3,Taylor Swift,Teardrops on My Guitar,Taylor Swift,3,FALSE,TRUE,Country,B b Major,100,6B,2006,None
+4,Taylor Swift,A Place In This World,Taylor Swift,4,FALSE,FALSE,Country,A Major,115,11B,2006,None
+5,Taylor Swift,Cold As You,Taylor Swift,5,FALSE,FALSE,Country,F Major,176,7B,2006,None
+6,Taylor Swift,The Outside,Taylor Swift,6,FALSE,FALSE,Country,F Major,113,7B,2006,None
+7,Taylor Swift,Tied Together With a Smile,Taylor Swift,7,FALSE,FALSE,Country,D Major,146,10B,2006,None
+8,Taylor Swift,Stay Beautiful,Taylor Swift,8,FALSE,FALSE,Country,A b Major,132,4B,2006,None
+9,Taylor Swift,Should’ve Said No,Taylor Swift,9,FALSE,TRUE,Country,E Minor,168,9A,2006,None
+10,Taylor Swift,Mary’s Song (Oh My My My),Taylor Swift,10,FALSE,FALSE,Country,D Major,151,10B,2006,None
+11,Taylor Swift,Our Song,Taylor Swift ,11,FALSE,TRUE,Country,D Major,89,10B,2006,None
+12,Taylor Swift,I’m Only Me When I’m With You,Taylor Swift,12,TRUE,FALSE,Country,A b Major,144,4B,2006,None
+13,Taylor Swift,Invisible,Taylor Swift,13,TRUE,FALSE,Country,G Major,96,9B,2006,None
+14,Taylor Swift,A Perfectly a Good Heart,Taylor Swift,14,TRUE,FALSE,Country,E Major,156,12B,2006,None
+15,Taylor Swift,Teardrops on My Guitar (pop version),Taylor Swift,15,TRUE,FALSE,Country,B b Major,100,6B,2006,None
+16,Taylor Swift,Jump Then Fall,Fearless,13,TRUE,FALSE,Country,D Major,80,10B,2008,None
+17,Taylor Swift,Untouchable,Fearless,14,TRUE,FALSE,Country,F Major,100,7B,2008,None
+18,Taylor Swift,Forever & Always (piano version),Fearless ,15,TRUE,FALSE,Country,A Major,120,11B,2008,None
+19,Taylor Swift,Come In With the Rain,Fearless ,16,TRUE,FALSE,Country,G Major,144,9B,2008,None
+20,Taylor Swift,SuperStar,Fearless ,17,TRUE,FALSE,Country,D Major,86,10B,2008,None
+21,Taylor Swift,The Other Side of the Door,Fearless,18,TRUE,FALSE,Country,E Major,82,12B,2008,None
+22,Taylor Swift,Fearless,Fearless,1,FALSE,TRUE,Country,F Major,100,7B,2008,None
+23,Taylor Swift,Fifteen,Fearless,2,FALSE,TRUE,Country,G Major,95,9B,2008,None
+24,Taylor Swift,Love Story,Fearless,3,FALSE,TRUE,Country,D Major,119,10B,2008,None
+25,Taylor Swift,Hey Stephen,Fearless,4,FALSE,FALSE,Country,F# Major,116,2B,2008,None
+26,Taylor Swift,White Horse,Fearless,5,FALSE,TRUE,Country,C Major,93,8B,2008,None
+27,Taylor Swift,You Belong With Me,Fearless,6,FALSE,TRUE,Country,F# Major,130,2B,2008,None
+28,Taylor Swift,Breathe,Fearless,7,FALSE,FALSE,Country,D b Major,148,3B,2008,Colbie Cailat
+29,Taylor Swift,Tell Me Why,Fearless,8,FALSE,FALSE,Country,G Major,100,9B,2008,None
+30,Taylor Swift,You’re Not Sorry,Fearless,9,FALSE,FALSE,Country,F# Major,134,2B,2008,None
+31,Taylor Swift,The Way I Loved You,Fearless,10,FALSE,FALSE,Country,F Major,161,7B,2008,None
+32,Taylor Swift,Forever & Always,Fearless,11,FALSE,FALSE,Country,B b Major,128,6B,2008,None
+33,Taylor Swift,The Best Day,Fearless,12,FALSE,FALSE,Country,D b Major,126,3B,2008,None
+34,Taylor Swift,Change,Fearless,19,FALSE,TRUE,Country,F Major,96,7B,2008,None
+35,Taylor Swift,Mine,Speak Now,1,FALSE,TRUE,Country,G Major,121,9B,2010,None
+36,Taylor Swift,Sparks Fly,Speak Now,2,FALSE,TRUE,Country,F Major,115,7B,2010,None
+37,Taylor Swift,Back to December,Speak Now,3,FALSE,TRUE,Country,D Major,142,10B,2010,None
+38,Taylor Swift,Speak Now,Speak Now,4,FALSE,FALSE,Country,E Major,164,12B,2010,None
+39,Taylor Swift,Dear John,Speak Now,5,FALSE,FALSE,Country,E Major,119,12B,2010,None
+40,Taylor Swift,Mean,Speak Now,6,FALSE,TRUE,Country,E Major,164,12B,2010,None
+41,Taylor Swift,The Story of Us,Speak Now,7,FALSE,TRUE,Country,E Major,140,12B,2010,None
+42,Taylor Swift,Never Grow Up,Speak Now,8,FALSE,FALSE,Country,D Major,125,10B,2010,None
+43,Taylor Swift,Enchanted,Speak Now,9,FALSE,FALSE,Country,A b Major,164,4B,2010,None
+44,Taylor Swift,Better Than Revenge,Speak Now,10,FALSE,FALSE,Country,B Minor,146,10A,2010,None
+45,Taylor Swift,Innocent,Speak Now,11,FALSE,FALSE,Country,D b Minor,134,12A,2010,None
+46,Taylor Swift,Haunted,Speak Now,12,FALSE,FALSE,Country,F Major,162,7B,2010,None
+47,Taylor Swift,Last Kiss,Speak Now,13,FALSE,FALSE,Country,B b Major,89,6B,2010,None
+48,Taylor Swift,Long Live,Speak Now,14,FALSE,TRUE,Country,G Major,102,9B,2010,None
+49,Taylor Swift,Ours,Speak Now,15,TRUE,TRUE,Country,C Major,160,8B,2010,None
+50,Taylor Swift,If This Was a Movie,Speak Now,16,TRUE,FALSE,Country,E Major,148,12B,2010,None
+51,Taylor Swift,Superman,Speak Now,17,TRUE,FALSE,Country,G Major,132,9B,2010,None
+52,Taylor Swift,Back to December (acoustic),Speak Now,18,TRUE,FALSE,Country,D Major,142,10B,2010,None
+53,Taylor Swift,Haunted (acoustic),Speak Now,19,TRUE,FALSE,Country,F Major,81,7B,2010,None
+54,Taylor Swift,State of Grace,Red,1,FALSE,FALSE,Country,E Major,130,12B,2012,None
+55,Taylor Swift,Red,Red,2,FALSE,TRUE,Country,D b Minor,125,9A,2012,None
+56,Taylor Swift,Treacherous,Red,3,FALSE,FALSE,Country,D Major,110,10B,2012,None
+57,Taylor Swift,I Knew You Were Trouble.,Red,4,FALSE,TRUE,Country,F# Major,154,2B,2012,None
+58,Taylor Swift,All Too Well,Red,5,FALSE,FALSE,Country,C Major,93,8B,2012,None
+59,Taylor Swift,22,Red,6,FALSE,TRUE,Country,G Major,104,9B,2012,None
+60,Taylor Swift,I Almost Do,Red,7,FALSE,FALSE,Country,E Major,146,12B,2012,None
+61,Taylor Swift,We Are Never Ever Getting Back Together,Red,8,FALSE,TRUE,Country,G Major,86,9B,2012,None
+62,Taylor Swift,Stay Stay Stay,Red,9,FALSE,FALSE,Country,C Major,100,8B,2012,None
+63,Taylor Swift,The Last Time,Red,10,FALSE,TRUE,Country,D Major,94,10B,2012,Gary Lightbody
+64,Taylor Swift,Holy Ground,Red,11,FALSE,FALSE,Country,A Major,157,11B,2012,None
+65,Taylor Swift,Sad Beautiful Tragic,Red,12,FALSE,FALSE,Country,G Major,130,9B,2012,None
+66,Taylor Swift,The Lucky One,Red,13,FALSE,FALSE,Country,E Major,118,12B,2012,None
+67,Taylor Swift,Everything Has Changed,Red,14,FALSE,TRUE,Country,F# Major,80,2B,2012,Ed Sheeran
+68,Taylor Swift,Starlight,Red,15,FALSE,FALSE,Country,A Major,126,11B,2012,None
+69,Taylor Swift,Begin Again,Red,16,FALSE,TRUE,Country,G Major,79,9B,2012,None
+70,Taylor Swift,The Moment I Knew,Red,17,TRUE,FALSE,Country,G Major,126,9B,2012,None
+71,Taylor Swift,Come Back... Be Here,Red,18,TRUE,FALSE,Country,E Major,80,12B,2012,None
+72,Taylor Swift,Girl At Home,Red,19,TRUE,FALSE,Country,F Major,125,7B,2012,None
+73,Taylor Swift,State of Grace (acoustic),Red,20,TRUE,FALSE,Country,G Major,105,9B,2012,None
+74,Taylor Swift,Welcome To New York,1989,1,FALSE,FALSE,Pop,G Major,117,9B,2014,None
+75,Taylor Swift,Blank Space,1989,2,FALSE,TRUE,Pop,F Major,96,7B,2014,None
+76,Taylor Swift,Style,1989,3,FALSE,TRUE,Pop,D Major,95,10B,2014,None
+77,Taylor Swift,Out of the Woods,1989,4,FALSE,TRUE,Pop,G Major,92,9B,2014,None
+78,Taylor Swift,All You Had To Do Was Stay,1988,5,FALSE,FALSE,Pop,F Major,97,7B,2014,None
+79,Taylor Swift,Shake It Off,1989,6,FALSE,TRUE,Pop,G Major,160,9B,2014,None
+80,Taylor Swift,I Wish You Would,1989,7,FALSE,FALSE,Pop,C Major,118,8B,2014,None
+81,Taylor Swift,Bad Blood,1989,8,FALSE,FALSE,Pop,G Major,170,9B,2014,None
+82,Taylor Swift,Wildest Dreams ,1989,9,FALSE,TRUE,Pop,A b Major,140,4B,2014,None
+83,Taylor Swift,How You Get the Girl,1989,10,FALSE,FALSE,Pop,F Major,120,7B,2014,None
+84,Taylor Swift,This Love,1989,11,FALSE,FALSE,Pop,E Major,72,12B,2014,None
+85,Taylor Swift,I Know Places,1989,12,FALSE,FALSE,Pop,C Major,160,8B,2014,None
+86,Taylor Swift,Clean,1989,13,FALSE,FALSE,Pop,E Major,104,12B,2014,None
+87,Taylor Swift,Wonderland ,1989,14,TRUE,FALSE,Pop,E b Major,92,5B,2014,None
+88,Taylor Swift,You Are In Love,1989,15,TRUE,FALSE,Pop,D Major,170,10B,2014,None
+89,Taylor Swift,New Romantics,1989,16,TRUE,TRUE,Pop,F Major,122,7B,2014,None
+90,Taylor Swift,...Ready For It?,reputation,1,FALSE,TRUE,Pop,D Major,160,10B,2017,None
+91,Taylor Swift,End Game,reputation,2,FALSE,TRUE,Pop,D Major,159,10B,2017,Ed Sheeran and Future
+92,Taylor Swift,I Did Something Bad,reputation,3,FALSE,FALSE,Pop,C Minor,83,5A,2017,None
+93,Taylor Swift,Don’t Blame Me,reputation,4,FALSE,FALSE,Pop,A Minor,136,8A,2017,None
+94,Taylor Swift,Delicate,reputation,5,FALSE,TRUE,Pop,A Minor,95,8A,2017,None
+95,Taylor Swift,Look What You Made Me Do,reputation,6,FALSE,TRUE,Pop,A Minor,128,8A,2017,None
+96,Taylor Swift,So It Goes...,reputation,7,FALSE,FALSE,Pop,D Major,75,10B,2017,None
+97,Taylor Swift,Gorgeous,reputation,8,FALSE,TRUE,Pop,G Major,92,9B,2017,None
+98,Taylor Swift,Getaway Car,reputation,9,FALSE,TRUE,Pop,D Major,172,10B,2017,None
+99,Taylor Swift,King Of My Heart,reputation,10,FALSE,FALSE,Pop,C Major,110,8B,2017,None
+100,Taylor Swift,Dancing With Our Hands Tied,reputation,11,FALSE,FALSE,Pop,C Minor,160,5A,2017,None
+101,Taylor Swift,Dress,reputation,12,FALSE,FALSE,Pop,C Major,120,8B,2017,None
+102,Taylor Swift,This Is Why We Can’t Have Nice Things,reputation,13,FALSE,FALSE,Pop,F Major,164,7B,2017,None
+103,Taylor Swift,Call it What You WaNot,reputation,14,FALSE,FALSE,Pop,A Major,164,11B,2017,None
+104,Taylor Swift,New Year’s Days,reputation,15,FALSE,TRUE,Pop,C Major,95,8B,2017,None
+105,Taylor Swift,I Forgot That You Existed,Lover,1,FALSE,FALSE,Pop,F Major,95,7B,2019,None
+106,Taylor Swift,Cruel Summer,Lover,2,FALSE,FALSE,Pop,A Major,170,11B,2019,None
+107,Taylor Swift,Lover,Lover,3,FALSE,TRUE,Pop,G Major,103,9B,2019,None
+108,Taylor Swift,The Man,Lover,4,FALSE,FALSE,Pop,C Major,110,8B,2019,None
+109,Taylor Swift,The Archer,Lover,5,FALSE,FALSE,Pop,C Major,124,8B,2019,None
+110,Taylor Swift,I Think He Knows,Lover,6,FALSE,FALSE,Pop,C Major,100,8B,2019,None
+111,Taylor Swift,Miss Americana & the Heartbreak Prince,Lover,7,FALSE,FALSE,Pop,B Minor,150,10A,2019,None
+112,Taylor Swift,Paper Rings,Lover,8,FALSE,FALSE,Pop,A Major,104,11B,2019,None
+113,Taylor Swift,Cornelia Street,Lover,9,FALSE,FALSE,Pop,C Major,102,8B,2019,None
+114,Taylor Swift,Death By a Thousand Cuts,Lover,10,FALSE,FALSE,Pop,E Major,94,12B,2019,None
+115,Taylor Swift,London Boy,Lover,11,FALSE,FALSE,Pop,Db Major,158,3B,2019,None
+116,Taylor Swift,Soon You’ll Get Better,Lover,12,FALSE,FALSE,Pop,C Major,104,8B,2019,Dixie Chicks
+117,Taylor Swift,False God,Lover,13,FALSE,FALSE,Pop,B Minor,80,10A,2019,None
+118,Taylor Swift,You Need To Calm Down,Lover,14,FALSE,TRUE,Pop,D Major,85,10B,2019,None
+119,Taylor Swift,Afterglow,Lover,15,FALSE,FALSE,Pop,A Major,111,11B,2019,None
+120,Taylor Swift,ME!,Lover,16,FALSE,TRUE,Pop,C Major,91,8B,2019,Brendon Urie of Panic! At the Disco
+121,Taylor Swift,It’s Nice To Have a Friend,Lover,17,FALSE,FALSE,Pop,Bb Major,70,6B,2019,None
+122,Taylor Swift,Daylight,Lover,18,FALSE,FALSE,Pop,C Major,150,8B,2019,None
+123,Taylor Swift,Crazier,Hannah Montana The Movie,0,FALSE,FALSE,Country,E Major,133,12B,2009,None
+124,Taylor Swift,Today Was a Fairytale,Valentine’s Day,0,FALSE,TRUE,Country,G Major,158,9B,2010,None
+125,Taylor Swift,Safe & Sound,The Hunger Games,0,FALSE,TRUE,Country,G Major,144,9B,2011,None
+126,Taylor Swift,Eyes Open,The Hunger Games,0,FALSE,TRUE,Country,G Major,137,9B,2011,None
+127,Taylor Swift,Sweeter Than Fiction,One Chance,0,FALSE,TRUE,Country,F# Major,135,2B,2013,None
+128,Taylor Swift,I Don’t Wanna Live Forever,Fifty Shades Darker,0,FALSE,TRUE,Pop,C Major,118,8B,2016,Zayn
+129,Taylor Swift,Bad Blood,Remix,0,FALSE,TRUE,Pop,D Major,170,10B,2015,Kendrick Lamar
+130,Selena Gomez,Revival,Revival,1,FALSE,FALSE,Pop,Db Minor,125,12A,2015,None
+131,Selena Gomez,Kill 'Em With Kindness,Revival,2,FALSE,TRUE,Pop,Bb Minor,120,3A,2015,None
+132,Selena Gomez,Hands To Myself,Revival,3,FALSE,TRUE,Pop,F Minor,111,4A,2015,None
+133,Selena Gomez,Same Old Love,Revival,4,FALSE,TRUE,Pop,B Minor,98,10A,2015,None
+134,Selena Gomez,Sober,Revival,5,FALSE,FALSE,Pop,A Major,92,11B,2015,None
+135,Selena Gomez,Good For You,Revival,6,FALSE,TRUE,Pop,F Minor,89,4A,2015,A$AP Rocky
+136,Selena Gomez,Camouflage,Revival,7,FALSE,FALSE,Pop,G Major,127,9B,2015,None
+137,Selena Gomez,Me & The Rhythm,Revival,8,FALSE,FALSE,Pop,G Major,106,9B,2015,None
+138,Selena Gomez,Survivors,Revival,9,FALSE,FALSE,Pop,Bb Minor,110,3A,2015,None
+139,Selena Gomez,Body Heat,Revival,10,FALSE,FALSE,Pop,Db Major,120,3B,2015,None
+140,Selena Gomez,Rise,Revival,11,FALSE,FALSE,Pop,Db Major,167,3B,2015,None
+141,Selena Gomez,Me & My Girls,Revival,12,TRUE,FALSE,Pop,D Major,122,10B,2015,None
+142,Selena Gomez,Nobody,Revival,13,TRUE,FALSE,Pop,Eb Minor,131,5B,2015,None
+143,Selena Gomez,Perfect,Revival,14,TRUE,FALSE,Pop,F# Minor,136,11A,2015,None
+144,Selena Gomez,Back To You,Single,0,FALSE,TRUE,Pop,F# Major,102,2B,2018,None
+145,Selena Gomez,Fetish,Single,0,FALSE,TRUE,Pop,D Major,123,10B,2017,Gucci Mane
+146,Selena Gomez,Bad Liar,Single,0,FALSE,TRUE,Pop,Db Major,121,3B,2017,None
+147,Demi Lovato,Sorry Not Sorry,Tell Me You Love Me,1,FALSE,TRUE,Pop,B Minor,144,10A,2017,None
+148,Demi Lovato,Tell Me You Love Me,Tell Me You Love Me,2,FALSE,TRUE,Pop,F# Major,82,2B,2017,None
+149,Demi Lovato,Sexy Dirty Love,Tell Me You Love Me,3,FALSE,FALSE,Pop,E Minor ,105,9A,2017,None
+150,Demi Lovato,You Don't Do It For Me Anymore,Tell Me You Love Me,4,FALSE,FALSE,Pop,F Minor,128,4A,2017,None
+151,Demi Lovato,Daddy Issues,Tell Me You Love Me,5,FALSE,FALSE,Pop,A Major,100,11B,2017,None
+152,Demi Lovato,Ruin the Friendship,Tell Me You Love Me,6,FALSE,FALSE,Pop,Ab Minor,96,10A,2017,None
+153,Demi Lovato,Only Forever,Tell Me You Love Me,7,FALSE,FALSE,Pop,Ab Minor,78,1A,2017,None
+154,Demi Lovato,Lonely,Tell Me You Love Me,8,FALSE,FALSE,Pop,B Minor,135,10A,2017,Lil Wayne
+155,Demi Lovato,Cry Baby,Tell Me You Love Me,9,FALSE,FALSE,Pop,Eb Major,80,5B,2017,None
+156,Demi Lovato,Games,Tell Me You Love Me,10,FALSE,FALSE,Pop,D Major,131,10B,2017,None
+157,Demi Lovato,Concentrate,Tell Me You Love Me,11,FALSE,FALSE,Pop,D Major,128,10B,2017,None
+158,Demi Lovato,Hitchhiker,Tell Me You Love Me,12,FALSE,FALSE,Pop,D Major,132,10B,2017,None
+159,Maren Morris,Sugar,Hero,1,FALSE,FALSE,Country,E Major,75,12B,2016,None
+160,Maren Morris,Rich,Hero,2,FALSE,TRUE,Country,F Major,75,7B,2016,None
+161,Maren Morris,My Church,Hero,3,FALSE,TRUE,Country,A Major,77,11B,2016,None
+162,Maren Morris,I Could Use a Love Song,Hero,4,FALSE,TRUE,Country,F# Major,92,2B,2016,None
+163,Maren Morris,80s Mercedes,Hero,5,FALSE,TRUE,Country,A Major,91,11B,2016,None
+164,Maren Morris,Drunk Girls Don't Cry,Hero,6,FALSE,FALSE,Country,D Major,90,10B,2016,None
+165,Maren Morris,How It's Done,Hero,7,FALSE,FALSE,Country,E Minor,143,9A,2016,None
+166,Maren Morris,Just Another Thing,Hero,8,FALSE,FALSE,Country,Db Minor,99,12A,2016,None
+167,Maren Morris,I Wish I Was,Hero,9,FALSE,FALSE,Country,B Major,85,1B,2016,None
+168,Maren Morris,Second Wind,Hero,10,FALSE,FALSE,Country,F# Major,160,2B,2016,None
+169,Maren Morris,Once,Hero,11,FALSE,FALSE,Country,F# Major,117,2B,2016,None
+170,Maren Morris,Bummin' Cigarettes,Hero,12,TRUE,FALSE,Country,Bb Major,153,6B,2016,None
+171,Maren Morris,Company You Keep,Hero,13,TRUE,FALSE,Country,G Major,91,9B,2016,None
+172,Maren Morris,Space,Hero,14,TRUE,FALSE,Country,F# Major,97,2B,2016,None
+173,Maren Morris,GIRL,GIRL,1,FALSE,TRUE,Country,F# Major,144,2B,2019,None
+174,Maren Morris,The Feels,GIRL,2,FALSE,FALSE,Country,F# Minor,97,11A,2019,None
+175,Maren Morris,All My Favorite People (feat. Brothers Osborne),GIRL,3,FALSE,FALSE,Country,E Major,84,12B,2019,None
+176,Maren Morris,A Song for Everything,GIRL,4,FALSE,FALSE,Country,Db Major,100,3B,2019,None
+177,Maren Morris,Common,GIRL,5,FALSE,FALSE,Country,B Minor,105,10A,2019,Brandi Carlile
+178,Maren Morris,Flavor,GIRL,6,FALSE,FALSE,Country,C Minor,80,5A,2019,None
+179,Maren Morris,Make Out With Me,GIRL,7,FALSE,FALSE,Country,Bb Major,67,6B,2019,None
+180,Maren Morris,Gold Love,GIRL,8,FALSE,FALSE,Country,C Major,92,8B,2019,None
+181,Maren Morris,Great Ones,GIRL,9,FALSE,FALSE,Country,A Major,145,11B,2019,None
+182,Maren Morris,RSVP,GIRL,10,FALSE,FALSE,Country,F# Minor,125,11A,2019,None
+183,Maren Morris,To Hell & Back,GIRL,11,FALSE,FALSE,Country,C Major,78,8B,2019,None
+184,Maren Morris,The Bones,GIRL,12,FALSE,TRUE,Country,B Minor,77,10A,2019,None
+185,Maren Morris,Good Woman,GIRL,13,FALSE,FALSE,Country,D Major,132,10B,2019,None
+186,Maren Morris,Shade,GIRL,14,FALSE,FALSE,Country,C Major,140,8B,2019,None
+187,Lorde,Green Light,Melodrama,1,FALSE,TRUE,Pop,D Major,129,10B,2017,None
+188,Lorde,Sober,Melodrama,2,FALSE,FALSE,Pop,F# Major,108,2B,2017,None
+189,Lorde,Homemade Dynamite,Melodrama,3,FALSE,TRUE,Pop,Bb Major,107,6B,2017,None
+190,Lorde,The Louvre,Melodrama,4,FALSE,FALSE,Pop,C Major,123,8B,2017,None
+191,Lorde,Liability,Melodrama,5,FALSE,FALSE,Pop,Bb Minor,76,3A,2017,None
+192,Lorde,Hard Feelings/Loveless,Melodrama,6,FALSE,FALSE,Pop,Db Minor,97,12A,2017,None
+193,Lorde,Sober II (Melodrama),Melodrama,7,FALSE,FALSE,Pop,Ab Minor,113,1A,2017,None
+194,Lorde,Writer In the Dark,Melodrama,8,FALSE,FALSE,Pop,G Major,72,9B,2017,None
+195,Lorde,Supercut,Melodrama,9,FALSE,FALSE,Pop,C Major,125,8B,2017,None
+196,Lorde,Liability (Reprise),Melodrama,10,FALSE,FALSE,Pop,C Major,78,8B,2017,None
+197,Lorde,Perfect Places,Melodrama,11,FALSE,TRUE,Pop,Db Minor,104,12A,2017,None
+198,Sasha Sloan,smiling while i die,Self Portrait,7,FALSE,TRUE,Pop,C Minor,93,5A,2019,None
+199,Halsey,now or never,hopeless fountain kingdom,6,FALSE,TRUE,Alternative,F# Minor,110,11A,2017,None
+200,Troye Sivan,Strawberries & Cigarettes,"Love, Simon Soundtrack",4,FALSE,TRUE,Soundtrack,A Major,84,11B,2018,None
+201,King Princess,Ain't Together,Cheap Queen,4,FALSE,TRUE,Pop,C Major,82,8B,2019,None
+202,Mad Hatter,Melanie Martinez,Cry Baby,13,FALSE,FALSE,Alternative,Ab Major,92,4B,2015,None
+203,Halsey,Colors,BADLANDS,6,FALSE,TRUE,Alternative,Db Major,100,3B,2015,None
+204,5 Seconds of Summer,Easier,Single,0,FALSE,TRUE,Pop,F Major,176,7B,2019,None
+205,Adam Lambert,Ghost Town,The Original High,1,FALSE,TRUE,Pop,E Minor,120,9A,2015,None
+206,Adam Lambert,Rumors,The Original High,6,FALSE,FALSE,Pop,D Minor,135,7A,2015,Tove Lo
+207,Adam Lambert,New Eyes,Single,0,FALSE,TRUE,Pop,A Minor,84,8A,2019,None
+208,Adam Lambert,Feel Something,Single,0,FALSE,TRUE,Pop,Eb Major,132,5B,2019,None
+209,Adele,Rolling in the Deep,21,1,FALSE,TRUE,Pop,Ab Major,105,4B,2011,None
+210,Adele,Set Fire to the Rain,21,5,FALSE,TRUE,Pop,D Minor,108,7A,2011,None
+211,Adele,Someone Like You,21,11,FALSE,TRUE,Pop,A Major,135,11B,2011,None
+212,Adele,Hello,25,1,FALSE,TRUE,Pop,F Minor,158,4A,2015,None
+213,Aerosmith,Dream On,Aerosmith,3,FALSE,TRUE,Rock,Db Major,161,3B,1973,None
+214,Aerosmith,Walk This Way,Toys In the Attic,4,FALSE,TRUE,Rock,F Major,109,7B,1975,None
+215,Ariana Grande,imagine,"thank u, next",1,FALSE,TRUE,Pop,Ab Major,63,4B,2019,None
+216,Ariana Grande,needy,"thank u, next",2,FALSE,FALSE,Pop,G Minor,87,6A,2019,None
+217,Ariana Grande,NASA,"thank u, next",3,FALSE,FALSE,Pop,F# Major,75,2B,2019,None
+218,Ariana Grande,bloodline,"thank u, next",4,FALSE,FALSE,Pop,D Minor,152,7A,2019,None
+219,Ariana Grande,fake smile,"thank u, next",5,FALSE,FALSE,Pop,A Major,83,11B,2019,None
+220,Ariana Grande,bad idea,"thank u, next",6,FALSE,FALSE,Pop,Db Major,138,3B,2019,None
+221,Ariana Grande,make up,"thank u, next",7,FALSE,FALSE,Pop,G Major,105,9B,2019,None
+222,Ariana Grande,ghostin,"thank u, next",8,FALSE,FALSE,Pop,A Major,104,11B,2019,None
+223,Ariana Grande,in my head,"thank u, next",9,FALSE,FALSE,Pop,C Major,135,8B,2019,None
+224,Ariana Grande,7 rings,"thank u, next",10,FALSE,TRUE,Pop,Db Minor,140,12A,2019,None
+225,Ariana Grande,"thank u, next","thank u, next",11,FALSE,TRUE,Pop,Db Major,107,3B,2019,None
+226,Ariana Grande,"break up with your girlfriend, i'm bored","thank u, next",12,FALSE,TRUE,Pop,F Minor,170,4A,2019,None
+227,Ariana Grande,R.E.M.,Sweetner,4,FALSE,FALSE,Pop,Bb Minor,80,3A,2018,None
+228,Ariana Grande,God is a woman,Sweetner,5,FALSE,TRUE,Pop,Db Major,145,3B,2018,None
+229,Ariana Grande,breathin,Sweetner,9,FALSE,FALSE,Pop,Ab Major,100,4B,2018,None
+230,Ariana Grande,better off,Sweetner,12,FALSE,FALSE,Pop,B Major,93,1B,2018,None
+231,Ariana Grande,goodnight n go,Sweetner,13,FALSE,FALSE,Pop,Db Major,111,3B,2018,None
+232,Ariana Grande,no tears left to cry,Sweetner,10,FALSE,TRUE,Pop,A Minor,122,8A,2018,None
+233,Ariana Grande,Dangerous Woman,Dangerous Woman,2,FALSE,TRUE,Pop,E Minor,134,9A,2016,None
+234,Ariana Grande,Be Alright,Dangerous Woman,3,FALSE,FALSE,Pop,Db Minor,109,12A,2016,None
+235,Ariana Grande,Into You,Dangerous Woman,4,FALSE,TRUE,Pop,A Major,108,11B,2016,None
+236,Ariana Grande,Side to Side,Dangerous Woman,5,FALSE,TRUE,Pop,F# Minor,159,11A,2016,Nicki Minaj
+237,Ariana Grande,Thinking Bout You,Dangerous Woman,15,FALSE,FALSE,Pop,B Major,103,1B,2016,None
+238,The Band Perry,If I Die Young,The Band Perry,3,FALSE,TRUE,Country,E Major,131,12B,2010,None
+239,The Band Perry,All Your Life,The Band Perry,4,FALSE,TRUE,Country,A Major,132,11B,2010,None
+240,Backstreet Boys,I Want It That Way,Millennium,2,FALSE,TRUE,Pop,F# Major,99,11A,1999,None
+241,The Bangles,Manic Monday,Different Light,1,FALSE,TRUE,Rock,D Major,122,10B,1986,None
+242,The Beatles,Let It Be,The Blue Album,12,FALSE,TRUE,Rock,C Major,143,8B,1969,None
+243,Bee Gees,You Should Be Dancing,Children of the World,1,FALSE,TRUE,Pop,C Major,123,8B,1976,None
+244,Bee Gees,Stayin' Alive,Saturday Night Fever,1,FALSE,TRUE,Pop,Bb Minor,104,3A,1977,None
+245,Bee Gees,Nights On Broadway,Main Course,1,FALSE,TRUE,Pop,F Major,89,7B,1975,None
+246,Bee Gees,Tragedy,Spirits Having Flown,1,FALSE,TRUE,Pop,D Major,118,10B,1979,None
+247,benny blanco,Eastside,Single,0,FALSE,TRUE,Pop,F# Minor,89,11A,2018,Halsey and Khalid
+248,benny blanco,I Can't Get Enough,Single,0,FALSE,TRUE,Pop,Bb Minor,95,3A,2019,Tainy and Selena Gomez and J Balvin
+249,Beyonce,If I Were A Boy,I Am... Sasha Fierce,1,FALSE,TRUE,Pop,F# Major,90,2B,2008,None
+250,Beyonce,Halo,I Am... Sasha Fierce,2,FALSE,TRUE,Pop,B Minor,80,10A,2008,None
+251,Beyonce,Single Ladies (Put a Ring On It),I Am... Sasha Fierce,1,FALSE,TRUE,Pop,Db Major,97,3B,2008,None
+252,Beyonce,Ego,I Am... Sasha Fierce,7,TRUE,FALSE,Pop,Db Major,79,3B,2008,None
+253,Beyonce,Hold Up,Lemonade,2,FALSE,TRUE,Pop,C Major,81,8B,2016,None
+254,Beyonce,Love Drought,Lemonade,7,FALSE,FALSE,Pop,A Minor,157,8A,2016,None
+255,Beyonce,Sandcastles,Lemonade,8,FALSE,FALSE,Pop,Bb Major,84,6B,2016,None
+256,Beyonce,Formation,Lemonade,12,FALSE,TRUE,Pop,F Minor,122,4A,2016,None
+257,Beyonce,Crazy in Love,Dangerously in Love,1,FALSE,TRUE,Pop,D Minor,99,7A,2003,Jay-Z
+258,Beyonce,Pretty Hurts,BEYONCE,1,FALSE,FALSE,Pop,B Major,130,1B,2013,None
+259,Beyonce,Drunk In Love ,BEYONCE,3,FALSE,TRUE,Pop,F Minor,140,4A,2013,Jay-Z
+260,Beyonce,XO,BEYONCE,10,FALSE,FALSE,Pop,C Major,170,8B,2013,None
+261,Bon Jovi,You Give Love a Bad Name,Slippery When Wet,2,FALSE,TRUE,Rock,C Minor,123,5A,1986,None
+262,Bon Jovi,Livin' On A Prayer,Slippery When Wet,3,FALSE,TRUE,Rock,C Major,123,8B,1986,None
+263,Bon Jovi,Wanted Dead or Alive,Slippery When Wet,5,FALSE,TRUE,Rock,G Major,150,9B,1986,None
+264,Bruno Mars,Grenade,Doo-Wops & Hooligans,1,FALSE,TRUE,Pop,D Minor,110,7A,2010,None
+265,Bruno Mars,Just The Way You Are,Doo-Wops & Hooligans,2,FALSE,TRUE,Pop,F Major,109,7B,2010,None
+266,Bruno Mars,Marry You,Doo-Wops & Hooligans,6,FALSE,TRUE,Pop,Bb Major,145,6B,2010,None
+267,Bruno Mars,Count on Me,Doo-Wops & Hooligans,9,FALSE,FALSE,Pop,C Major,89,8B,2010,None
+268,Bruno Mars,That's What I Like,24K Magic,4,FALSE,TRUE,Pop,Db Major,134,3B,2016,None
+269,Bruno Mars,Versace On The Floor,24K Magic,5,FALSE,FALSE,Pop,D Major,174,10B,2016,None
+270,Bruno Mars,Locked Out of Heaven,Unorthodox Jukebox,2,FALSE,TRUE,Pop,F Major,144,7B,2012,None
+271,Calvin Harris,This is What You Came For,Single,0,FALSE,TRUE,Pop,A Minor,124,8A,2016,Rihanna
+272,Cardi B,Bodak Yellow,Invasion of Privacy,4,FALSE,TRUE,Hip-Hop/Rap,B Minor,125,10A,2018,None
+273,Cardi B,Be Careful,Invasion of Privacy,5,FALSE,TRUE,Hip-Hop/Rap,F# Minor,152,11A,2018,None
+274,Cardi B,I Like It ,Invasion of Privacy,7,FALSE,TRUE,Hip-Hop/Rap,F Minor,136,4A,2018,
+275,Carly Simon,You're So Vain,No Secrets,3,FALSE,TRUE,Pop,C Major,106,8B,1971,None
+276,Carrie Underwood,Before He Cheats,Some Hearts,7,FALSE,TRUE,Pop,F# Minor,148,11A,2005,None
+277,Carrie Underwood,So Small,Carnival Ride,3,FALSE,FALSE,Country,Eb Major,148,5B,2007,None
+278,Carrie Underwood,Just a Dream,Carnival Ride,4,FALSE,TRUE,Country,G Major,142,9B,2007,None
+279,Carrie Underwood,I Know You Won't,Carnival Ride,7,FALSE,FALSE,Country,Bb Major,132,6B,2007,None
+280,Carrie Underwood,Last Name,Carnival Ride,8,FALSE,TRUE,Country,Eb Major,160,5B,2007,None
+281,Carrie Underwood,Something in the Water,Single,0,FALSE,TRUE,Country,G Major,140,9B,2014,None
+282,Carrie Underwood,Blown Away,Blown Away,2,FALSE,TRUE,Country,A Minor,137,8A,2012,None
+283,Carrie Underwood,Dirty Laundry,Storyteller,2,FALSE,TRUE,Country,Bb Minor,100,3A,2015,None
+284,Carrie Underwood,Church Bells,Storyteller,3,FALSE,TRUE,Country,Eb Minor,87,2A,2015,None
+285,Carrie Underwood,Heartbeat,Storyteller,4,FALSE,TRUE,Country,Db Major,140,3B,2015,None
+286,Carrie Underwood,Chaser,Storyteller,8,FALSE,FALSE,Country,C Major,120,8B,2015,None
+287,Carrie Underwood,Relapse,Storyteller,9,FALSE,FALSE,Country,F# Major,109,2B,2015,None
+288,Carrie Underwood,Clock Don't Stop,Storyteller,10,FALSE,FALSE,Country,Ab Minor,125,1A,2015,None
+289,Carrie Underwood,Cry Pretty,Cry Pretty,1,FALSE,TRUE,Country,F# Major,140,2B,2018,None
+290,Carrie Underwood,Low,Cry Pretty,2,FALSE,FALSE,Country,B Major,114,1B,2018,None
+291,Carrie Underwood,Backsliding,Cry Pretty,4,FALSE,FALSE,Country,G Major,129,9B,2018,None
+292,Carrie Underwood,Southbound,Cry Pretty,5,FALSE,TRUE,Country,C Major,101,8B,2018,None
+293,Carrie Underwood,That Song We Used to Make Love To,Cry Pretty,6,FALSE,FALSE,Country,Eb Minor,128,2A,2018,None
+294,Carrie Underwood,Drinking Alone,Cry Pretty,7,FALSE,TRUE,Country,F Minor,98,4A,2018,None
+295,Carrie Underwood,Love Wins,Cry Pretty,10,FALSE,TRUE,Country,G Major,135,9B,2018,None
+296,Carrie Underwood,End Up With You,Cry Pretty,11,FALSE,FALSE,Country,Bb Minor,93,3A,2018,None
+297,Christina Aguilera,Fighter,Stripped,4,FALSE,TRUE,Pop,E Minor,94,9A,2002,None
+298,Christina Aguilera,Beautiful,Stripped,11,FALSE,TRUE,Pop,F Minor,76,4A,2002,None
+299,Christina Aguilera,Genie in a Bottle,Christina Aguilera,1,FALSE,TRUE,Pop,Db Major,176,3B,1999,None
+300,Clean Bandit,Solo,Single,0,FALSE,TRUE,Dance,B Minor,105,10A,2018,Demi Lovato
+301,Colbie Caillat,Try,Gypsy Heart,4,FALSE,TRUE,Pop,Db Major,140,3B,2014,None
+302,Dan + Shay,Tequila,Dan + Shay,2,FALSE,TRUE,Country,B Major,86,1B,2018,None
+303,Demi Lovato,Body Say,Single,0,FALSE,TRUE,Pop,F Minor,87,4A,2016,None
+304,Demi Lovato,Confident,Confident,1,FALSE,TRUE,Pop,Eb Major,130,5B,2015,None
+305,Demi Lovato,Cool for the Summer,Confident,2,FALSE,TRUE,Pop,F Minor,115,4A,2015,None
+306,Demi Lovato,Old Ways,Confident,3,FALSE,FALSE,Pop,G Minor,154,6A,2015,None
+307,Demi Lovato,For You,Confident,4,FALSE,FALSE,Pop,F Major,126,7B,2015,None
+308,Demi Lovato,Stone Cold,Confident,5,FALSE,TRUE,Pop,Ab Major,140,4B,2015,None
+309,Demi Lovato,Kingdom Come,Confident,6,FALSE,FALSE,Pop,F Minor,88,4A,2015,Iggy Azalea
+310,Demi Lovato,Waitin For You,Confident,7,FALSE,FALSE,Pop,G Minor,150,6A,2015,Sirah
+311,Demi Lovato,Wildfire,Confident,8,FALSE,FALSE,Pop,F Minor,130,4A,2015,None
+312,Demi Lovato,Lionheart,Confident,9,FALSE,FALSE,Pop,B Major,164,1B,2015,None
+313,Demi Lovato,Yes,Confident,10,FALSE,FALSE,Pop,Ab Major,156,4B,2015,None
+314,Demi Lovato,Father,Confident,11,FALSE,FALSE,Pop,Bb Major,141,6B,2015,None
+315,Demi Lovato,Stars,Confident,12,TRUE,FALSE,Pop,B Minor,156,10A,2015,None
+316,Demi Lovato,Mr. Hughes,Confident,13,TRUE,FALSE,Pop,G Major,94,9B,2015,None
+317,Demi Lovato,Heart Attack,Demi,1,FALSE,TRUE,Pop,Ab Major,174,4B,2013,None
+318,Demi Lovato,Neon Lights,Demi,4,FALSE,TRUE,Pop,A Mahor,126,11B,2013,None
+319,Demi Lovato,Two Pieces,Demi,5,FALSE,FALSE,Pop,G Minor,170,6A,2013,None
+320,Demi Lovato,In Case,Demi,7,FALSE,FALSE,Pop,Ab Major,89,4B,2013,None
+321,Demi Lovato,Really Don't Care,Demi,8,FALSE,TRUE,Pop,G Major,121,9B,2013,Cher Lloyd
+322,Demi Lovato,Never Been Hurt,Demi,11,FALSE,FALSE,Pop,G Major,134,9B,2013,None
+323,Demi Lovato,Shouldn't Come Back,Demi,12,FALSE,FALSE,Pop,G Major,112,9B,2013,None
+324,Demi Lovato,Lightweight,Unbroken,5,FALSE,FALSE,Pop,Ab Major,95,4B,2011,None
+325,Demi Lovato,Give Your Heart a Break,Unbroken,10,FALSE,TRUE,Pop,F# Major,123,2B,2011,None
+326,Demi Lovato,Skyscraper,Unbroken,11,FALSE,TRUE,Pop,G Major,104,9B,2011,None
+327,Demi Lovato,Here We Go Again,Here We Go Again,1,FALSE,TRUE,Pop,F Major,142,7B,2009,None
+328,Demi Lovato,Remember December,Here We Go Again,11,FALSE,FALSE,Pop,Db Major,90,3B,2009,None
+329,Demi Lovato,Get Back,Don't Forget,2,FALSE,TRUE,Pop,C Major,76,8B,2008,None
+330,Demi Lovato,Don't Forget,Don't Forget,6,FALSE,TRUE,Pop,E Major,90,12B,2008,None
+331,Dixie Chicks,Cowboy Take Me Away,Fly,3,FALSE,TRUE,Country,F# Major,164,2B,1999,None
+332,Dixie Chicks,Wide Open Spaces,Wide Open Spaces,2,FALSE,TRUE,Country,E Major,90,12B,1998,None
+333,Dixie Chicks,Landslide,Home,2,FALSE,TRUE,Country,D Major,146,10B,2002,None
+334,Dolly Parton,Jolene,Jolene,1,FALSE,TRUE,Country,Db Minor,111,12A,1974,None
+335,Ed Sheeran,Beautiful People,No.6 Collaborations Project,1,FALSE,TRUE,Pop,F Minor,93,4A,2019,Khalid
+336,Ed Sheeran,South of the Border,No.6 Collaborations Project,2,FALSE,TRUE,Pop,A Minor,98,8A,2019,Camila Cabello and Cardi B
+337,Ed Sheeran,Cross Me,No.6 Collaborations Project,3,FALSE,TRUE,Pop,E Major,95,12B,2019,Chance the Rapper and PnB Rock
+338,Ed Sheeran,Take Me Back to London,No.6 Collaborations Project,4,FALSE,FALSE,Pop,Ab Minor,138,1A,2019,Stormzy
+339,Ed Sheeran,Castle on the Hill,divide,2,FALSE,TRUE,Pop,D Major,135,10B,2017,None
+340,Ed Sheeran,Dive,divide,3,FALSE,FALSE,Pop,E Major,135,12B,2017,None
+341,Ed Sheeran,Shape of You,divide,4,FALSE,TRUE,Pop,Db Minor,96,12A,2017,None
+342,Ed Sheeran,Perfect,divide,5,FALSE,TRUE,Pop,Ab Major,95,4B,2017,None
+343,Ed Sheeran,Happier,divide,7,FALSE,FALSE,Pop,C Major,90,8B,2017,None
+344,Ed Sheeran,How Would You Feel (Paean),divide,11,FALSE,FALSE,Pop,A Major,140,11B,2017,None
+345,Ed Sheeran,One,multiply,1,FALSE,FALSE,Singer/Songwriter,D Major,94,10B,2014,None
+346,Ed Sheeran,I'm a Mess,multiply,2,FALSE,TRUE,Singer/Songwriter,Eb Major,139,5B,2014,None
+347,Ed Sheeran,Don't,multiply,4,FALSE,TRUE,Singer/Songwriter,Db Major,95,3B,2014,None
+348,Ed Sheeran,Photograph,multiply,6,FALSE,TRUE,Singer/Songwriter,E Major,108,12B,2014,None
+349,Ed Sheeran,Tenerife Sea,multiply,8,FALSE,FALSE,Singer/Songwriter,Ab Major,122,4B,2014,None
+350,Ed Sheeran,Thinking Out Loud,multiply,11,FALSE,TRUE,Singer/Songwriter,D Major,79,10B,2014,None
+351,Ed Sheeran,The A Team,add,1,FALSE,TRUE,Singer/Songwriter,A Major,85,11B,2011,None
+352,Ed Sheeran,Lego House,add,9,FALSE,TRUE,Singer/Songwriter,B Major,160,1B,2011,None
+353,Ellie Goulding,Flux,Single,0,FALSE,FALSE,Pop,C Major,93,8B,2019,None
+354,Ellie Goulding,Something in the Way You Move,Delirium,3,FALSE,TRUE,Pop,Db Minor,109,12A,2015,None
+355,Ellie Goulding,Love Me Like You Do,Delirium,9,FALSE,TRUE,Pop,Ab Major,95,4B,2015,None
+356,Ellie Goulding,Paradise,Delirium,19,TRUE,FALSE,Pop,D Minor,112,7A,2015,None
+357,Ellie Goulding,Burn,Halcyon,19,FALSE,TRUE,Pop,Db Major,87,3B,2012,None
+358,Ellie Goulding,Lights,Lights,1,FALSE,TRUE,Pop,Ab Minor,120,1A,2010,None
+359,Ellie Goulding,Still Falling For You,Single,0,FALSE,FALSE,Pop,Db Major,96,3B,2010,None
+360,Evie Irie,The Optimist,5 Weeks in LA,3,FALSE,TRUE,Pop,Bb Major,172,6B,2019,None
+361,Fall Out Boy,My Songs Know What You Did In the Dark (Light Em Up),Save Rock and Roll,2,FALSE,TRUE,Alternative,A Minor,152,8A,2013,None
+362,Fall Out Boy,Irresistible,American Beauty / American Psycho,1,FALSE,TRUE,Alternative,D Major,165,10B,2015,None
+363,Fall Out Boy,Fourth of July,American Beauty / American Psycho,8,FALSE,FALSE,Alternative,E Minor,80,9A,2015,None
+364,Fifth Harmony,Miss Movin' On,Better Together,2,FALSE,TRUE,Pop,F# Major,75,2B,2013,None
+365,Fifth Harmony,Down,Fifth Harmony,1,FALSE,TRUE,Pop,Ab Major,98,4B,2017,Gucci Mane
+366,Fifth Harmony,He Like That,Fifth Harmony,2,FALSE,TRUE,Pop,C Major,147,8B,2017,None
+367,Fifth Harmony,Make You Mad,Fifth Harmony,4,FALSE,FALSE,Pop,G Major,101,9B,2017,None
+368,Fifth Harmony,Sledgehammer,Fifth Harmony,3,FALSE,TRUE,Pop,D Major,100,10B,2015,None
+369,Fifth Harmony,Worth It,Fifth Harmony,4,FALSE,TRUE,Pop,Ab Major,100,4B,2015,Kid Ink
+370,Fifth Harmony,That's My Girl,7/27,1,FALSE,TRUE,Pop,F Minor,101,4A,2018,None
+371,Fifth Harmony,Work from Home,7/28,2,FALSE,TRUE,Pop,Ab Major,105,4B,2018,Ty Dolla $ign
+372,Fifth Harmony,The Life,7/29,3,FALSE,FALSE,Pop,C Major,104,8B,2018,None
+373,Fifth Harmony,All In My Head (Flex),7/30,6,FALSE,TRUE,Pop,C Minor,95,5A,2018,Fetty Wap
+374,Fifth Harmony,Gonna Get Better,7/31,8,FALSE,FALSE,Pop,Eb Major,92,5B,2018,None
+375,Fifth Harmony,Dope,8/1,11,FALSE,FALSE,Pop,C Major,91,8B,2018,None
+376,Foreigner,Feels Like the First Time,Foreigner,1,FALSE,TRUE,Rock,G Major,108,9B,1977,None
+377,Foreigner,Cold As Ice,Foreigner,2,FALSE,TRUE,Rock,Eb Minor,133,2A,1977,None
+378,Foreigner,Starrider,Foreigner,3,FALSE,FALSE,Rock,C Major,146,8B,1977,None
+379,Foreigner,Double Vision,Double Vision,6,FALSE,TRUE,Rock,A Minor,130,8A,1978,None
+380,Foreigner,Juke Box Hero,4,2,FALSE,TRUE,Rock,A Major,88,11B,1981,None
+381,Foreigner,Urgent,4,6,FALSE,TRUE,Rock,E Minor,115,9A,1981,None
+382,Foreigner,Waiting for a Girl Like You,4,4,FALSE,TRUE,Rock,Bb Minor,101,3A,1981,None
+383,Foreigner,I Want To Know What Love Is,Agent Provocateur,3,FALSE,TRUE,Rock,F# Major,81,2B,1984,None
+384,Foreigner,Say You Will,Inside Information,3,FALSE,TRUE,Rock,Eb Minor,126,2A,1987,None
+385,Fun.,We Are Young,Some Nights,3,FALSE,TRUE,Alternative,Bb Major,92,6B,2012,Janelle Monae
+386,George Michael,Father Figure,Faith,2,FALSE,TRUE,Pop,Eb Major,102,5B,1987,None
+387,George Michael,Careless Whisper,Single,0,FALSE,TRUE,Pop,D Minor,153,7A,1984,None
+388,George Michael,Freedom! 90,Listen Without Prejudice,2,FALSE,TRUE,Pop,F Major,92,7B,2017,None
+389,Gotye,Somebody That I Used To Know,Making Mirrors,3,FALSE,TRUE,Alternative,C Major,129,8B,2011,Kimbra
+390,A Great Big World,Say Something,Is There Antbody Out There?,5,FALSE,TRUE,Pop,D Major,141,10B,2013,None
+391,HAIM,Want You Back,Something To Tell You,1,FALSE,TRUE,Alternative,C Major,113,8B,2017,None
+392,Halsey,Ashley,Manic,1,FALSE,FALSE,Alternative,G Major,125,9B,2020,None
+393,Halsey,clementine,Manic,2,FALSE,FALSE,Alternative,Eb Minor,143,2A,2020,None
+394,Halsey,Graveyard,Manic,3,FALSE,TRUE,Alternative,B Minor,92,10A,2020,None
+395,Halsey,You should be sad,Manic,4,FALSE,TRUE,Alternative,D Major,111,10B,2020,None
+396,Halsey,Forever.. (is a long time),Manic,5,FALSE,FALSE,Alternative,D Minor,70,7A,2020,None
+397,Halsey,Dominic's Interlude,Manic,6,FALSE,FALSE,Alternative,Bb Major,158,6B,2020,Dominic Fike
+398,Halsey,I HATE EVERYBODY,Manic,7,FALSE,FALSE,Alternative,F Major,80,7B,2020,None
+399,Halsey,3am,Manic,8,FALSE,FALSE,Alternative,C Minor,95,5A,2020,None
+400,Halsey,Without Me,Manic,9,FALSE,TRUE,Alternative,F# Major,136,2B,2018,None
+401,Halsey,Finally // beautiful stranger,Manic,10,FALSE,FALSE,Alternative,A Minor,134,8A,2020,None
+402,Halsey,Alanis' Interlude,Manic,11,FALSE,FALSE,Alternative,C Major,94,8B,2020,Alanis Morissette
+403,Halsey,killing boys,Manic,12,FALSE,FALSE,Alternative,B Major,140,1B,2020,None
+404,Halsey,SUGA's Interlude,Manic,13,FALSE,FALSE,Alternative,C Major,154,8B,2020,SUGA
+405,Halsey,More,Manic,14,FALSE,FALSE,Alternative,B Major,171,1B,2020,None
+406,Halsey,Still Learning,Manic,15,FALSE,FALSE,Alternative,C Minor,102,5A,2020,None
+407,Halsey,929,Manic,16,FALSE,FALSE,Alternative,A Major,150,11B,2020,None
+408,Halsey,Nightmare,Single,0,FALSE,TRUE,Alternative,A Minor,146,8A,2019,None
+409,Halsey,100 Letters,hopeless fountain kingdom,2,FALSE,FALSE,Alternative,B Minor,110,10A,2017,None
+410,Halsey,Eyes Closed,hopeless fountain kingdom,3,FALSE,FALSE,Alternative,Db Minor,130,12A,2017,None
+411,Halsey,Alone,hopeless fountain kingdom,5,FALSE,TRUE,Alternative,D Minor,100,7A,2017,None
+412,Halsey,Sorry,hopeless fountain kingdom,7,FALSE,TRUE,Alternative,F Minor,74,4A,2017,None
+413,Halsey,Bad At Love,hopeless fountain kingdom,11,FALSE,TRUE,Alternative,C Major,118,8B,2017,None
+414,Halsey,Strangers,hopeless fountain kingdom,13,FALSE,FALSE,Alternative,B Major,110,1B,2017,Lauren Jauregi
+415,Halsey,Hopeless,hopeless fountain kingdom,16,FALSE,FALSE,Alternative,C Minor,90,5A,2017,Cashmere Cat
+416,Halsey,Castle,BADLANDS,1,FALSE,TRUE,Alternative,G Minor,130,6A,2015,None
+417,Halsey,Hold Me Down,BADLANDS,2,FALSE,FALSE,Alternative,Db Minor,146,12A,2015,None
+418,Halsey,New Americana,BADLANDS,3,FALSE,TRUE,Alternative,C Minor,174,5A,2015,None
+419,Halsey,Drive,BADLANDS,4,FALSE,FALSE,Alternative,A Minor,114,8A,2015,None
+420,Halsey,Hurricane,BADLANDS,5,FALSE,TRUE,Alternative,C Major,120,8B,2015,None
+421,Halsey,Roman Holiday,BADLANDS,6,FALSE,FALSE,Alternative,F Major,74,7B,2015,None
+422,Halsey,Ghost,BADLANDS,7,FALSE,TRUE,Alternative,G Major,95,9B,2015,None
+423,Halsey,Coming Down,BADLANDS,11,FALSE,FALSE,Alternative,F# Minor,89,11A,2015,None
+424,Halsey,Young God,BADLANDS,15,FALSE,FALSE,Alternative,A Minor,120,8A,2015,None
+425,Hannah Montana,If We Were a Movie,Hannah Montana,5,FALSE,FALSE,Pop,E Major,94,12B,2006,None
+426,Hannah Montana,Nobody's Perfect,Hannah Montana 2,2,FALSE,FALSE,Pop,Ab Major,132,4B,2007,None
+427,Hannah Montana,One In a Million,Hannah Montana 3,7,FALSE,FALSE,Pop,B Major,89,1B,2007,None
+428,Harry Styles,Watermelon Sugar,Fine Line,2,FALSE,FALSE,Pop,C Major,95,8B,2019,None
+429,Harry Styles,Carolina,Harry Styles,3,FALSE,FALSE,Pop,E Minor,122,9A,2017,None
+430,Harry Styles,Two Ghosts,Expectations,4,FALSE,FALSE,Pop,F# Minor,69,11A,2017,None
+431,Harry Styles,Woman,Expectations,9,FALSE,FALSE,Pop,Eb Minor,136,2A,2017,None
+432,Hayley Kiyoko,Feelings,Expectations,2,FALSE,FALSE,Pop,Bb Minor,111,3A,2018,None
+433,Hayley Kiyoko,What I need,Expectations,3,FALSE,TRUE,Pop,Bb Major,104,6B,2018,Kehlani
+434,Hayley Kiyoko,Sleepover,Expectations,4,FALSE,TRUE,Pop,Db Major,153,3B,2018,None
+435,Hayley Kiyoko,Under the blue/Take Me In,Expectations,6,FALSE,FALSE,Pop,Bb Major,114,6B,2018,None
+436,Hayley Kiyoko,Curious,Expectations,7,FALSE,TRUE,Pop,Db Minor,104,12A,2018,None
+437,Hayley Kiyoko,Wanna be Missed,Expectations,9,FALSE,FALSE,Pop,A Minor,105,8A,2018,None
+438,Hayley Kiyoko,He'll Never Love You (HNLY),Expectations,10,FALSE,FALSE,Pop,C Minor,100,5A,2018,None
+439,Hayley Kiyoko,Palm Dreams,Expectations,11,FALSE,FALSE,Pop,C Major,104,8B,2018,None
+440,Hayley Kiyoko,Molecules,Expectations,12,FALSE,FALSE,Pop,B Minor,107,10A,2018,None
+441,Hayley Kiyoko,Let It Be,Expectations,13,FALSE,FALSE,Pop,C Major,80,8B,2018,None
+442,Hayley Kiyoko,I Wish,Single,0,FALSE,TRUE,Pop,Ab Major,91,4B,2019,None
+443,Hayley Kiyoko,Ease My Mind,Citrine,2,FALSE,FALSE,Pop,F Major,99,7B,2016,None
+444,Hayley Kiyoko,Palace,Citrine,5,FALSE,FALSE,Pop,C Major,75,8B,2016,None
+445,Hayley Kiyoko,Cliff's Edge,This Side of Paradise,3,FALSE,TRUE,Pop,C Major,80,8B,2015,None
+446,Hilary Duff,All About You,Single,0,FALSE,FALSE,Pop,Db Major,158,3B,2014,None
+447,Hilary Duff,So Yesterday,Metamorphosis,1,FALSE,TRUE,Pop,C Major,78,8B,2003,None
+448,Hilary Duff,Come Clean,Metamorphosis,2,FALSE,TRUE,Pop,Ab Minor,118,1A,2003,None
+449,Hozier,Take Me to Church,Hozier,1,FALSE,TRUE,Alternative,E Minor,129,9A,2013,None
+450,Iggy Azalea,Fancy,The New Classic,5,FALSE,TRUE,Hip-Hop/Rap,Bb Minor,95,3A,2014,Charli XCX
+451,Jax Jones,Instruction,Single,0,FALSE,TRUE,Dance,E Minor,121,9A,2017,Demi Lovato and Stefflon Don
+452,Jesse McCartney,Beautiful Soul,Beautiful Soul,2,FALSE,TRUE,Pop,A Major,90,11B,2004,None
+453,Jesse McCartney,Leavin',Departure: Recharged,1,FALSE,TRUE,Pop,A Major,79,11B,2008,None
+454,Jesse McCartney,How Do You Sleep?,Departure: Recharged,4,FALSE,TRUE,Pop,Ab Major,106,4B,2008,None
+455,Jessie J,Bang Bang,Single,0,FALSE,TRUE,Pop,C Minor,150,5A,2014,Ariana Grande and Nicki Minaj
+456,Jordin Sparks,Battlefield,Battlefield,2,FALSE,TRUE,Pop,D Major,145,10B,2009,None
+457,Jordin Sparks,No Air,Jordin Sparks,3,FALSE,TRUE,Pop,Ab Minor,160,1A,2007,Chris Brown
+458,Journey,Don't Stop Believin',Escape,1,FALSE,TRUE,Rock,E Major,119,12B,1981,None
+459,Journey,Wheel in the Sky,Infinity,6,FALSE,TRUE,Rock,D Minor,105,7A,1978,None
+460,Journey,Faithfully,Fronteirs,5,FALSE,TRUE,Rock,B Major,85,1B,1983,None
+461,Journey,Any Way You Want It,Departure,1,FALSE,TRUE,Rock,G Major,138,9B,1980,None
+462,Journey,Lights,Infinity,1,FALSE,TRUE,Rock,G Major,104,9B,1978,None
+463,Journey,Open Arms,Escape,10,FALSE,TRUE,Rock,D Major,101,10B,1981,None
+464,Justin Timberlake,Suit & Tie,The 20/20 Experience,2,FALSE,TRUE,Pop,B Minor,102,10A,2013,None
+465,Justin Timberlake,Mirrors,The 20/20 Experience,9,FALSE,TRUE,Pop,F Minor,77,4A,2013,None
+466,Justin Timberlake,TKO,The 20/20 Experience,4,FALSE,FALSE,Pop,Eb Minor,138,2A,2013,None
+467,Justin Timberlake,Take Back the Night,The 20/20 Experience,5,FALSE,FALSE,Pop,G Major,107,9B,2013,None
+468,Justin Timberlake,Drink You Away,The 20/20 Experience,7,FALSE,TRUE,Pop,D Major,105,10B,2013,None
+469,Justin Timberlake,Not a Bad Thing,The 20/20 Experience,11,FALSE,TRUE,Pop,C Major,86,8B,2013,None
+470,Justin Timberlake,Cry Me a River,Justified,5,FALSE,TRUE,Pop,Ab Minor,74,1A,2002,None
+471,Justin Timberlake,SexyBack,FutureSex/LoveSounds,2,FALSE,TRUE,Pop,G Minor,117,6A,2006,Timbaland
+472,Justin Timberlake,What Goes Around.../...Comes Around,FutureSex/LoveSounds,6,FALSE,TRUE,Pop,G Major,76,9B,2006,None
+473,Kacey Musgraves,Slow Burn,Golden Hour,1,FALSE,TRUE,Country,D Major,148,10B,2018,None
+474,Kacey Musgraves,Lonely Weekend,Golden Hour,2,FALSE,FALSE,Country,Eb Major,112,5B,2018,None
+475,Kacey Musgraves,Butterflies,Golden Hour,3,FALSE,TRUE,Country,E Minor,142,9A,2018,None
+476,Kacey Musgraves,"Oh, What a World",Golden Hour,4,FALSE,FALSE,Country,E Major,91,12B,2018,None
+477,Kacey Musgraves,Mother,Golden Hour,5,FALSE,FALSE,Country,A Major,56,11B,2018,None
+478,Kacey Musgraves,Love Is a Wild Thing,Golden Hour,6,FALSE,FALSE,Country,Bb Major,122,6B,2018,None
+479,Kacey Musgraves,Space Cowboy,Golden Hour,7,FALSE,TRUE,Country,Db Major,117,3B,2018,None
+480,Kacey Musgraves,Happy & Sad,Golden Hour,8,FALSE,FALSE,Country,Bb Major,90,6B,2018,None
+481,Kacey Musgraves,Velvet Elvis,Golden Hour,9,FALSE,FALSE,Country,Db Major,90,3B,2018,None
+482,Kacey Musgraves,Wonder Woman,Golden Hour,10,FALSE,FALSE,Country,B Major,105,1B,2018,None
+483,Kacey Musgraves,High Horse,Golden Hour,11,FALSE,TRUE,Country,B Minor,120,10A,2018,None
+484,Kacey Musgraves,Golden Hour,Golden Hour,12,FALSE,FALSE,Country,F# Minor,89,11A,2018,None
+485,Kacey Musgraves,Rainbow,Golden Hour,13,FALSE,FALSE,Country,Eb Major,130,5B,2018,None
+486,Kacey Musgraves,Dime Store Cowgirl,Pageant Material,2,FALSE,TRUE,Country,F# Major,100,2B,2015,None
+487,Kacey Musgraves,Late To the Party,Pageant Material,3,FALSE,FALSE,Country,Db Major,106,3B,2015,None
+488,Kacey Musgraves,Pageant Material,Pageant Material,4,FALSE,TRUE,Country,B Major,94,1B,2015,None
+489,Kacey Musgraves,Biscuits,Pageant Material,6,FALSE,TRUE,Country,C Major,101,8B,2015,None
+490,Kacey Musgraves,Somebody to Love,Pageant Material,7,FALSE,FALSE,Country,Bb Major,89,6B,2015,None
+491,Kacey Musgraves,Merry Go 'Round,Same Trailer Different Park,3,FALSE,TRUE,Country,F# Major,87,2B,2013,None
+492,Katy Perry,Harleys in Hawaii,Single,0,FALSE,TRUE,Pop,Bb Minor,140,3A,2019,None
+493,Katy Perry,Chained to the Rhythm,Witness,9,FALSE,TRUE,Pop,C Major,95,8B,2017,Skip Marley
+494,Katy Perry,Roar,PRISM,1,FALSE,TRUE,Pop,G Minor,90,6A,2013,None
+495,Katy Perry,Unconditionally,PRISM,5,FALSE,TRUE,Pop,G Major,129,9B,2013,None
+496,Katy Perry,Dark Horse,PRISM,6,FALSE,TRUE,Pop,F# Major,132,2B,2013,Juicy J
+497,Katy Perry,Teenage Dream,Teenage Dream,1,FALSE,TRUE,Pop,Bb Major,120,6B,2010,None
+498,Katy Perry,Last Friday Night (T.G.I.F.),Teenage Dream,2,FALSE,TRUE,Pop,Eb Minor,126,2A,2010,None
+499,Katy Perry,Firework,Teenage Dream,4,FALSE,TRUE,Pop,Ab Major,124,4B,2010,None
+500,Katy Perry,The One That Got Away,Teenage Dream,7,FALSE,TRUE,Pop,Db Minor,134,12A,2010,None
+501,Katy Perry,Part of Me,Teenage Dream,14,TRUE,TRUE,Pop,F Major,130,7B,2012,None
+502,Katy Perry,Wide Awake,Teenage Dream,15,TRUE,TRUE,Pop,F Major,160,7B,2012,None
+503,Kelly Clarkson,Love So Soft,Meaning of Life,2,FALSE,TRUE,Pop,B Major,130,1B,2017,None
+504,Kelly Clarkson,Meaning of Life,Meaning of Life,4,FALSE,FALSE,Pop,D Minor,97,7A,2017,None
+505,Kelly Clarkson,Whole Lotta Woman,Meaning of Life,6,FALSE,FALSE,Pop,Bb Minor,120,3A,2017,None
+506,Kelly Clarkson,Would You Call That Love,Meaning of Life,10,FALSE,FALSE,Pop,F Minor,100,4A,2017,None
+507,Kelly Clarkson,Heartbeat Song,Piece by Piece,1,FALSE,TRUE,Pop,F# Major,149,2B,2015,None
+508,Kelly Clarkson,Piece by Piece,Piece by Piece,5,FALSE,TRUE,Pop,Db Major,106,3B,2015,None
+509,Kelly Clarkson,Mr. Know It All,Stronger,1,FALSE,FALSE,Pop,F Major,96,7B,2011,None
+510,Kelly Clarkson,Stronger (What Doesn't Kill You),Stronger,2,FALSE,TRUE,Pop,C Major,116,8B,2011,None
+511,Kelly Clarkson,My Life Would Suck Without You,All I Ever Wanted,1,FALSE,TRUE,Pop,A Major,145,11B,2009,None
+512,Kelly Clarkson,Breakaway,Breakaway,1,FALSE,TRUE,Pop,A Minor,160,8A,2004,None
+513,Kelly Clarkson,Since U Been Gone,Breakaway,2,FALSE,TRUE,Pop,C Major,131,8B,2004,None
+514,Kelly Clarkson,Because of You,Breakaway,4,FALSE,TRUE,Pop,F Minor,140,4A,2004,None
+515,Kelsea Ballerini,club,Kelsea,2,FALSE,FALSE,Country,G Major,168,9B,2020,None
+516,Kelsea Ballerini,homecoming queen?,Kelsea,3,FALSE,TRUE,Country,A Major,114,11B,2020,None
+517,Kelsea Ballerini,Graveyard,Unapologetically,1,FALSE,FALSE,Country,Ab Major,88,4B,2017,None
+518,Kelsea Ballerini,Miss Me More,Unapologetically,2,FALSE,TRUE,Country,D Major,96,10B,2017,None
+519,Kelsea Ballerini,Get Over Yourself,Unapologetically,3,FALSE,FALSE,Country,A Major,84,11B,2017,None
+520,Kelsea Ballerini,Roses,Unapologetically,4,FALSE,FALSE,Country,D Major,105,10B,2017,None
+521,Kelsea Ballerini,High School,Unapologetically,7,FALSE,FALSE,Country,D Major,148,10B,2017,None
+522,Kelsea Ballerini,I Hate Love Songs,Unapologetically,9,FALSE,TRUE,Country,B Major,90,1B,2017,None
+523,Kelsea Ballerini,Unapologetically,Unapologetically,10,FALSE,FALSE,Country,D Major,171,10B,2017,None
+524,Kelsea Ballerini,Legends,Unapologetically,12,FALSE,TRUE,Country,E Major,112,12B,2017,None
+525,Kelsea Ballerini,XO,The First Time,1,FALSE,FALSE,Country,D Major,109,10B,2015,None
+526,Kelsea Ballerini,Peter Pan,The First Time,2,FALSE,TRUE,Country,Db Major,76,3B,2015,None
+527,Kelsea Ballerini,Love Me Like You Mean It,The First Time,3,FALSE,TRUE,Country,E Major,152,12B,2015,None
+528,Kelsea Ballerini,Secondhand Smoke,The First Time,8,FALSE,FALSE,Country,E Major,87,12B,2015,None
+529,Kelsea Ballerini,Dibs,The First Time,9,FALSE,TRUE,Country,E Major,88,12B,2015,None
+530,Kelsea Ballerini,Stilletos,The First Time,10,FALSE,FALSE,Country,E Major,141,12B,2015,None
+531,Kelsea Ballerini,Yeah Boy,The First Time,11,FALSE,TRUE,Country,Eb Major,89,5B,2015,None
+532,Kesha,Woman,Rainbow,3,FALSE,TRUE,Pop,F Minor,115,4A,2017,None
+533,Kesha,Hymn,Rainbow,4,FALSE,FALSE,Pop,F# Major,67,2B,2017,None
+534,Kesha,Praying,Rainbow,5,FALSE,TRUE,Pop,Bb Major,73,6B,2017,None
+535,Kesha,Learn To Let Go,Rainbow,6,FALSE,TRUE,Pop,F Major,168,7B,2017,None
+536,Kesha,Hunt You Down,Rainbow,9,FALSE,FALSE,Pop,G Minor,106,6A,2017,None
+537,Kesha,Boots,Rainbow,11,FALSE,FALSE,Pop,Bb Minor,124,3A,2017,None
+538,Kesha,Die Young,Warrior,2,FALSE,TRUE,Pop,Db Minor,128,12A,2012,None
+539,Kesha,We R Who We R,Cannibal,2,FALSE,TRUE,Pop,Ab Major,120,4B,2010,None
+540,Kesha,Blow,Cannibal,4,FALSE,TRUE,Pop,B Minor,120,10A,2010,None
+541,Kesha,Your Love Is My Drug,Animal,1,FALSE,TRUE,Pop,Db Major,120,3B,2010,None
+542,Kesha,TiK ToK,Animal,2,FALSE,TRUE,Pop,D Minor,120,7A,2010,None
+543,Khalid,My Bad,Free Spirit,3,FALSE,FALSE,R&B/Soul,F Minor,85,4A,2019,None
+544,Khalid,Better,Free Spirit,4,FALSE,TRUE,R&B/Soul,C Minor,98,5A,2019,None
+545,Khalid,Talk,Free Spirit,5,FALSE,TRUE,R&B/Soul,C Major,136,8B,2019,None
+546,Khalid,Right Back,Free Spirit,6,FALSE,FALSE,R&B/Soul,F Minor,97,4A,2019,None
+547,Khalid,Saturday Nights,Free Spirit,17,FALSE,TRUE,R&B/Soul,Bb Major,168,6B,2019,None
+548,Khalid,Youg Dumb & Broke,American Teen,2,FALSE,TRUE,R&B/Soul,Db Major,137,3B,2017,None
+549,Khalid,Locaition,American Teen,3,FALSE,TRUE,R&B/Soul,Db Minor,80,12A,2017,None
+550,Khalid,Another Sad Love Song,American Teen,4,FALSE,FALSE,R&B/Soul,F Minor,107,4A,2017,None
+551,Khalid,Coaster,American Teen,6,FALSE,FALSE,R&B/Soul,Ab Major,94,4B,2017,None
+552,Khalid,Let's Go,American Teen,8,FALSE,FALSE,R&B/Soul,A Major,108,11B,2017,None
+553,Khalid,Cold Blooded,American Teen,10,FALSE,FALSE,R&B/Soul,A Minor,103,8A,2017,None
+554,Khalid,Winter,American Teen,11,FALSE,FALSE,R&B/Soul,Db Major,100,3B,2017,None
+555,Khalid,Shot Down,American Teen,14,FALSE,FALSE,R&B/Soul,F# Major,124,2B,2017,None
+556,Kygo,First Time,Single,0,FALSE,TRUE,Dance,C Minor,90,5A,2017,Ellie Goulding
+557,Kygo,It Ain't Me,Single,0,FALSE,TRUE,Dance,C Major,100,8B,2017,Selena Gomez
+558,Lady Antebellum,Ocean,Ocean,13,FALSE,FALSE,Country,F# Major,99,2B,2019,None
+559,Lady Antebellum,Long Stretch of Love,747,1,FALSE,FALSE,Country,Db Major,102,3B,2014,None
+560,Lady Antebellum,Bartender,747,2,FALSE,TRUE,Country,B Minor,101,10A,2014,None
+561,Lady Antebellum,Heart Break,Heart Break,1,FALSE,TRUE,Country,G Major,84,9B,2017,None
+562,Lady Antebellum,Just A Kiss,Own The Night,2,FALSE,TRUE,Country,Db Major,143,3B,2011,None
+563,Lady Antebellum,Need You Now,Need You Now,1,FALSE,TRUE,Country,E Major,108,12B,2010,None
+564,Lady Antebellum,American Honey,Need You Now,3,FALSE,TRUE,Country,Db Major,86,3B,2010,None
+565,Lady Gaga,The Cure,Single,0,FALSE,TRUE,Pop,Ab Major,100,4B,2017,None
+566,Lady Gaga,Diamond Heart,Joanne,1,FALSE,FALSE,Pop,Eb Minor,128,2A,2016,None
+567,Lady Gaga,Joanne,Joanne,3,FALSE,TRUE,Pop,G Major,150,9B,2016,None
+568,Lady Gaga,John Wayne,Joanne,4,FALSE,FALSE,Pop,B Minor,97,10A,2016,None
+569,Lady Gaga,Perfect Illusion,Joanne,6,FALSE,TRUE,Pop,Db Minor,125,12A,2016,None
+570,Lady Gaga,Million Reasons,Joanne,7,FALSE,TRUE,Pop,C Major,130,8B,2016,None
+571,Lady Gaga,Sinner's Prayer,Joanne,8,FALSE,FALSE,Pop,G Major,92,9B,2016,None
+572,Lady Gaga,Angel Down,Joanne,11,FALSE,FALSE,Pop,A Major,107,11B,2016,None
+573,Lady Gaga,Marry the Night,Born This Way,1,FALSE,FALSE,Pop,C Major,131,8B,2013,None
+574,Lady Gaga,You and I,Born This Way,16,FALSE,TRUE,Pop,D Major,127,10B,2013,None
+575,Lady Gaga,The Edge of Glory,Born This Way,17,FALSE,TRUE,Pop,A Major,128,11B,2013,None
+576,Lady Gaga,Bad Romance,The Fame Monster,1,FALSE,TRUE,Pop,C Major,119,8B,2009,None
+577,Lady Gaga,Paparazzi,The Fame Monster,11,FALSE,TRUE,Pop,F Minor,115,4A,2009,None
+578,Lady Gaga,Applause,ARTPOP,14,FALSE,TRUE,Pop,G Minor,140,6A,2009,None
+579,Lana Del Rey,Dark Paradise ,Born to Die,7,FALSE,FALSE,Alternative,Db Minor,120,12A,2012,None
+580,Lana Del Rey,Summertime Sadness,Born to Die,11,FALSE,TRUE,Alternative,Db Minor,112,12A,2012,None
+581,Leona Lewis,Bleeding Love,Single,0,FALSE,TRUE,Pop,F Major,104,7B,2007,None
+582,Little Big Town,The Daughters,Nightfall,8,FALSE,TRUE,Country,G Major,80,9B,2020,None
+583,Little Big Town,Sugar Coat,Nightfall,10,FALSE,TRUE,Country,C Major,154,8B,2020,None
+584,Little Big Town,Happy People,The Breaker,1,FALSE,FALSE,Country,Ab Major,160,4B,2017,None
+585,Little Big Town,Lost In California,The Breaker,3,FALSE,FALSE,Country,B Major,138,1B,2017,None
+586,Little Big Town,Better Man,The Breaker,7,FALSE,TRUE,Country,F Major,144,7B,2017,None
+587,Little Big Town,Pain Killer,Pain Killer,4,FALSE,FALSE,Country,F# Major,162,2B,2014,None
+588,Little Big Town,Girl Crush,Pain Killer,5,FALSE,TRUE,Country,C Major,174,8B,2014,None
+589,Lizzo,Juice,Cuz I Love You,3,FALSE,TRUE,Pop,G Major,120,9B,2019,None
+590,Lizzo,Soulmate,Cuz I Love You,4,FALSE,FALSE,Pop,G Major,99,9B,2019,None
+591,Lizzo,Tempo,Cuz I Love You,7,FALSE,TRUE,Pop,Db Major,107,3B,2019,Missy Elliot
+592,Lizzo,Truth Hurts,Cuz I Love You,13,FALSE,TRUE,Pop,E Minor,158,9A,2019,None
+593,Lizzo,Fitness,Single,0,FALSE,TRUE,Pop,B Minor,120,10A,2018,None
+594,Lizzo,Good As Hell,Coconut Oil,5,FALSE,TRUE,Pop,C Minor,96,5A,2016,None
+595,Lorde,Tennis Court,Pure Heroine,1,FALSE,TRUE,Alternative,C Major,90,8B,2013,None
+596,Lorde,400 Lux,Pure Heroine,2,FALSE,FALSE,Alternative,D Major,92,10B,2013,None
+597,Lorde,Royals,Pure Heroine,3,FALSE,TRUE,Alternative,G Major,85,9B,2013,None
+598,Lorde,Ribs,Pure Heroine,4,FALSE,FALSE,Alternative,E Major,128,12B,2013,None
+599,Lorde,Team,Pure Heroine,6,FALSE,TRUE,Alternative,F# Major,100,2B,2013,None
+600,Lorde,Glory and Gore,Pure Heroine,7,FALSE,FALSE,Alternative,Db Major,144,3B,2013,None
+601,MARINA,Superstar,LOVE + FEAR,2,FALSE,TRUE,Pop,B Minor,97,10A,2019,None
+602,MARINA,Orange Trees,LOVE + FEAR,3,FALSE,TRUE,Pop,Ab Minor,101,1A,2019,None
+603,MARINA,Enjoy You Life,LOVE + FEAR,5,FALSE,FALSE,Pop,D Major,114,10B,2019,None
+604,MARINA,Karma,LOVE + FEAR,4,FALSE,FALSE,Pop,C Minor,96,5A,2019,None
+605,MARINA,No More Suckers,LOVE + FEAR,7,FALSE,FALSE,Pop,F# Minor,92,11A,2019,None
+606,Maroon 5,Girls Like You,Single,0,FALSE,TRUE,Pop,C Major,125,8B,2018,Cardi B
+607,Maroon 5,Memories,Single,0,FALSE,TRUE,Pop,B Major,91,1B,2019,None
+608,Maroon 5,She Will Be Loved,Songs About Jane,4,FALSE,TRUE,Pop,C Minor,102,5A,2002,None
+609,Maroon 5,Moves Like Jagger,Hands All Over,13,FALSE,TRUE,Pop,B Minor,128,10A,2010,Christina Aguilera
+610,Maroon 5,Animals,V,2,FALSE,TRUE,Pop,E Minor,95,9A,2014,None
+611,Maroon 5,Sugar,V,5,FALSE,TRUE,Pop,Db Major,120,3B,2014,None
+612,Maroon 5,Payphone,Overexposed,2,FALSE,TRUE,Pop,E Major,110,12B,2012,Wiz Khalifa
+613,Marshmello,One Thing Right,Single,0,FALSE,TRUE,Pop,E Major,88,12B,2019,Kane Brown
+614,Marshmello,Wolves,Single,0,FALSE,TRUE,Pop,B Minor,125,10A,2017,Selena Gomez
+615,Matchbox Twenty,If You're Gone,Mad Season,5,FALSE,TRUE,Rock,A Major,110,11B,2000,None
+616,Matchbox Twenty,Bent,Mad Season,9,FALSE,TRUE,Rock,F# Minor,95,11A,2000,None
+617,Matchbox Twenty,3am,Yourself or Someone Like You,3,FALSE,TRUE,Pop,Ab Major,108,4B,1996,None
+618,Miley Cyrus,Mother's Daughter,SHE IS COMING,1,FALSE,TRUE,Pop,Db Minor,91,12A,2019,None
+619,Miley Cyrus,Unholy,SHE IS COMING,2,FALSE,FALSE,Pop,E Minor,142,9A,2019,None
+620,Miley Cyrus,D.R.E.A.M.,SHE IS COMING,3,FALSE,FALSE,Pop,C Major,160,8B,2019,Ghostface Killah
+621,Miley Cyrus,The Most,SHE IS COMING,6,FALSE,FALSE,Pop,G Major,99,9B,2019,None
+622,Miley Cyrus,Slide Away,Single,0,FALSE,TRUE,Pop,F Major,148,7B,2019,None
+623,Miley Cyrus,Younger Now,Younger Now,1,FALSE,TRUE,Pop,E Major,122,12B,2017,None
+624,Miley Cyrus,Malibu,Younger Now,2,FALSE,TRUE,Pop,Ab Major,140,4B,2017,None
+625,Miley Cyrus,Week Without You,Younger Now,4,FALSE,FALSE,Pop,G Major,90,9B,2017,None
+626,Miley Cyrus,Bad Mood,Younger Now,8,FALSE,FALSE,Pop,Bb Minor,154,3A,2017,None
+627,Miley Cyrus,Love Someone,Younger Now,9,FALSE,FALSE,Pop,Ab Minor,99,1A,2017,None
+628,Miley Cyrus,She's Not Him,Younger Now,10,FALSE,FALSE,Pop,C Major,76,8B,2017,None
+629,Miley Cyrus,Adore You,Bangerz,1,FALSE,TRUE,Pop,C Major,120,8B,2013,None
+630,Miley Cyrus,We Can't Stop,Bangerz,2,FALSE,TRUE,Pop,Db Minor,80,12A,2013,None
+631,Miley Cyrus,My Darlin',Bangerz,5,FALSE,FALSE,Pop,Ab Major,143,4B,2013,None
+632,Miley Cyrus,Wrecking Ball,Bangerz,6,FALSE,TRUE,Pop,F Major,120,7B,2013,Future
+633,Miley Cyrus,Drive,Bangerz,9,FALSE,FALSE,Pop,Db Major,143,3B,2013,None
+634,Miley Cyrus,Do My Thang,Bangerz,11,FALSE,FALSE,Pop,F# Major,132,2B,2013,None
+635,Miley Cyrus,Maybe You're Right,Bangerz,12,FALSE,FALSE,Pop,Ab Major,108,4B,2013,None
+636,Miley Cyrus,When I Look At You,The Time of Our Lives,3,FALSE,TRUE,Pop,F# Major,138,2B,2009,None
+637,Miley Cyrus,Can't Be Tamed,Can't Be Tamed,3,FALSE,TRUE,Pop,B Minor,117,10A,2010,None
+638,Miley Cyrus,Stay,Can't Be Tamed,8,FALSE,FALSE,Pop,C Major,130,8B,2010,None
+639,Miranda Lambert,White Liar,Revolution,1,FALSE,TRUE,Country,Bb Major,93,6B,2009,None
+640,Niall Horan,Seeing Blind,Flicker,3,FALSE,FALSE,Pop,A Major,94,11B,2017,None
+641,Niall Horan,Slow Hands,Flicker,4,FALSE,TRUE,Pop,C Major,86,8B,2017,None
+642,Niall Horan,Too Much To Ask,Flicker,5,FALSE,TRUE,Pop,C Major,77,8B,2017,None
+643,Niall Horan,Mirrors,Flicker,12,FALSE,FALSE,Pop,D Major,140,10B,2017,None
+644,Nick Jonas,Find You,Single,0,FALSE,TRUE,Pop,F# Minor,126,11A,2017,None
+645,Nick Jonas,Close,Last Year Was Complicated,3,FALSE,TRUE,Pop,F# Minor,124,11A,2016,Tove Lo
+646,Nick Jonas,Chainsaw,Last Year Was Complicated,4,FALSE,TRUE,Pop,D Major,85,10B,2016,None
+647,Nick Jonas,Bacon,Last Year Was Complicated,6,FALSE,FALSE,Pop,Db Major,144,3B,2016,Ty Dolla $ign
+648,Nick Jonas,Don't Make Me Choose,Last Year Was Complicated,9,FALSE,FALSE,Pop,E Minor,84,9A,2016,None
+649,Nick Jonas,Unhinged,Last Year Was Complicated,11,FALSE,FALSE,Pop,Ab Major,144,4B,2016,None
+650,Nick Jonas,Chains,Nick Jonas,1,FALSE,TRUE,Pop,C Minor,76,5A,2014,None
+651,Nick Jonas,Jealous,Nick Jonas,2,FALSE,TRUE,Pop,B Minor,93,10A,2014,None
+652,Nick Jonas,Numb,Nick Jonas,6,FALSE,FALSE,Pop,C Minor,132,5A,2014,Angel Haze
+653,Nick Jonas,Avalanche,Nick Jonas,10,FALSE,FALSE,Pop,C Major,140,8B,2014,Demi Lovato
+654,Nicki Minaj,Get On Your Knees (feat. Ariana Grande),The Pinkprint,4,FALSE,FALSE,Hip-Hop/Rap,C Minor,144,5A,2014,Ariana Grande
+655,Nicki Minaj,The Night Is Still Young,The Pinkprint,13,FALSE,TRUE,Hip-Hop/Rap,Db Minor,128,12A,2014,None
+656,Nicki Minaj,Ganja Burn,Queen,1,FALSE,FALSE,Hip-Hop/Rap,Db Minor,109,12A,2018,None
+657,Nicki Minaj,Majesty,Queen,2,FALSE,FALSE,Hip-Hop/Rap,B Minor,157,10A,2018,Eminem and Labrinth
+658,Nicki Minaj,Bed,Queen,6,FALSE,TRUE,Hip-Hop/Rap,G Major,90,9B,2018,Ariana Grande
+659,Nicki Minaj,LLC,Queen,11,FALSE,FALSE,Hip-Hop/Rap,Bb Minor,154,3A,2018,None
+660,Nicki Minaj,Regret In Your Tears,Single,0,FALSE,TRUE,Hip-Hop/Rap,C Minor,106,5A,2017,None
+661,Night Ranger,Sister Christain,Midnight Madness,4,FALSE,TRUE,Rock,F Major,89,7B,1983,None
+662,Normani,Motivation,Single,0,FALSE,TRUE,Pop,E Major,171,12B,2019,None
+663,*NSYNC,Bye Bye Bye,No Strings Attached,1,FALSE,TRUE,Pop,Ab Minor,173,1A,2000,None
+664,*NSYNC,It's Gonna Be Me,No Strings Attached,2,FALSE,TRUE,Pop,C Minor,165,5A,2000,None
+665,*NSYNC,Tearin' Up My Heart,*NSYNC,1,FALSE,TRUE,Pop,G Major,110,9B,1997,None
+666,Olivia Holt,Phoenix,Olivia,1,FALSE,TRUE,Pop,F# Minor,90,11A,2016,None
+667,Olivia Holt,Thin Air,Olivia,2,FALSE,FALSE,Pop,F# Minor,81,11A,2016,Jordan Fisher
+668,Olivia Holt,In the Dark,Olivia,3,FALSE,FALSE,Pop,Db Minor,95,12A,2016,None
+669,Olivia Holt,What You Love,Olivia,4,FALSE,FALSE,Pop,F Major,152,7B,2016,None
+670,Olivia Holt,History,Olivia,5,FALSE,FALSE,Pop,Db Major,101,3B,2016,None
+671,One Direction,Drag Me Down,Made In The A.M.,2,FALSE,TRUE,Pop,C Minor,138,5A,2015,None
+672,One Direction,Perfect,Made In The A.M.,3,FALSE,TRUE,Pop,D Major,100,10B,2015,None
+673,One Direction,What a Feeling,Made In The A.M.,10,FALSE,FALSE,Pop,C Minor,124,5A,2015,None
+674,One Direction,A.M.,Made In The A.M.,17,TRUE,TRUE,Pop,C Minor,138,5A,2015,None
+675,One Direction,Where Do Broken Hearts Go,FOUR,3,FALSE,TRUE,Pop,E Major,123,12B,2014,None
+676,One Direction,Night Changes,FOUR,7,FALSE,TRUE,Pop,Ab Major,120,4B,2014,None
+677,One Direction,Best Song Ever,Midnight Memories,1,FALSE,TRUE,Pop,Db Major,118,3B,2013,None
+678,One Direction,Story of My Life,Midnight Memories,2,FALSE,TRUE,Pop,Eb Major,121,5B,2013,None
+679,One Direction,Midnight Memories,Midnight Memories,4,FALSE,TRUE,Pop,F# Minor,156,11A,2013,None
+680,One Direction,You & I,Midnight Memories,5,FALSE,TRUE,Pop,Db Major,131,3B,2013,None
+681,One Direction,Live While We're Young,Take Me Home,1,FALSE,TRUE,Pop,D Major,126,10B,2012,None
+682,Panic! At the Disco,High Hopes,Pray For the Wicked,4,FALSE,TRUE,Alternative,F Major,82,7B,2018,None
+683,Pat Benatar,Heartbreaker,In the Heat of the Night,1,FALSE,TRUE,Rock,F Minor,156,4A,1979,None
+684,Pat Benatar,Shadows of the Night,Get Nervous,1,FALSE,TRUE,Rock,F# Major,112,2B,1981,None
+685,Pat Benatar,Love Is a Battlefield,Live from Earth,4,FALSE,TRUE,Rock,D Minor,91,7A,1983,None
+686,Poison,Every Rose Has Its Thorn,Open Up and Say . . . Ahh!,8,FALSE,TRUE,Rock,F# Major,140,2B,1988,None
+687,Queen,Bohemain Rhapsody,A Night at the Opera,11,FALSE,TRUE,Rock,C Minor,144,5A,1975,None
+688,Queen,Another One Bites the Dust,The Game,3,FALSE,TRUE,Rock,F Minor,110,4A,1980,None
+689,Queen,Killer Queen,Sheer Heart Attack,2,FALSE,TRUE,Rock,Bb Major,117,6B,1974,None
+690,Queen,Fat Bottomed Girls,Jazz,2,FALSE,TRUE,Rock,D Major,89,10B,1978,None
+691,Queen,Somebody to Love,A Day at the Races,6,FALSE,TRUE,Rock,Ab Major,112,4B,1976,None
+692,Queen,We Will Rock You,News of the World,1,FALSE,TRUE,Rock,D Major,81,10B,1977,None
+693,Queen,We Are the Champions,News of the World,2,FALSE,TRUE,Rock,G Minor,64,6A,1977,None
+694,Queen,Under Pressure,Hot Space,11,FALSE,TRUE,Rock,D Major,114,10B,1982,David Bowie
+695,Queen,Radio Gaga,The Works,1,FALSE,TRUE,Rock,F Major,152,7B,1984,None
+696,Queen,I Want It All,The Miracle,4,FALSE,TRUE,Rock,B Minor,92,10A,1989,None
+697,Queen,The Show Must Go On,Innuendo,12,FALSE,TRUE,Rock,B Minor,83,10A,1991,None
+698,REO Speedwagon,Can't Fight This Feeling,Wheels Are Turnin',6,FALSE,TRUE,Rock,A Major,156,11B,1984,None
+699,Rihanna,Kiss It Better,ANTI,3,FALSE,TRUE,Pop,Eb Minor,95,2A,2016,None
+700,Rihanna,Work,ANTI,4,FALSE,TRUE,Pop,B Major,92,1B,2016,Drake
+701,Rihanna,Desperado,ANTI,5,FALSE,FALSE,Pop,C Minor,94,5A,2016,None
+702,Rihanna,Needed Me,ANTI,7,FALSE,FALSE,Pop,F Minor,11,4A,2016,None
+703,Rihanna,Never Ending,ANTI,10,FALSE,FALSE,Pop,Bb Major,82,6B,2016,None
+704,Rihanna,Love on the Brain,ANTI,11,FALSE,TRUE,Pop,E Minor,172,9A,2016,None
+705,Rihanna,Close to You,ANTI,13,FALSE,FALSE,Pop,Bb Major,80,6B,2016,None
+706,Rihanna,Diamonds,Unapologetic,2,FALSE,TRUE,Pop,B Minor,92,10A,2012,None
+707,Rihanna,What Now,Unapologetic,8,FALSE,TRUE,Pop,Ab Minor,90,1A,2012,None
+708,Rihanna,Stay,Unapologetic,9,FALSE,TRUE,Pop,A Minor,112,8A,2012,Mikky Ekko
+709,Rihanna,California King Bed,Loud,6,FALSE,FALSE,Pop,G Major,170,9B,2010,None
+710,Rihanna,Umbrella,Good Girl Gone Bad,1,FALSE,TRUE,Pop,Db Major,174,3B,2008,Jay-Z
+711,Rihanna,Disturbia,Good Girl Gone Bad,13,FALSE,TRUE,Pop,B Minor,125,10A,2008,None
+712,Sabrina Carpenter,In My Bed,Singular Act II,1,FALSE,FALSE,Pop,A Minor,109,8A,2019,None
+713,Sabrina Carpenter,I Can't Stop Me,Singular Act II,3,FALSE,FALSE,Pop,Bb Minor,140,3A,2019,Saweetie
+714,Sabrina Carpenter,I'm Fakin,Singular Act II,4,FALSE,FALSE,Pop,Db Minor,160,12A,2019,None
+715,Sabrina Carpenter,Paris,Singular Act I,2,FALSE,TRUE,Pop,D Minor,115,7A,2018,None
+716,Sabrina Carpenter,Sue Me,Singular Act I,4,FALSE,TRUE,Pop,F# Major,157,2B,2018,None
+717,Sabrina Carpenter,Bad Time,Singular Act I,6,FALSE,FALSE,Pop,C Major,83,8B,2018,None
+718,Sabrina Carpenter,Mona Lisa,Singular Act I,7,FALSE,FALSE,Pop,Db Minor,144,12A,2018,None
+719,Sabrina Carpenter,Why,Single,0,FALSE,TRUE,Pop,B Minor,90,10A,2017,None
+720,Sabrina Carpenter,On Purpose,EVOLution,1,FALSE,TRUE,Pop,D Minor,100,7A,2016,None
+721,Sabrina Carpenter,No Words,EVOLution,4,FALSE,FALSE,Pop,Db Major,95,3B,2016,None
+722,Sabrina Carpenter,Run and Hide,EVOLution,5,FALSE,FALSE,Pop,Ab Major,156,4B,2016,None
+723,Sabrina Carpenter,Mirage,EVOLution,6,FALSE,FALSE,Pop,A Minor,102,8A,2016,None
+724,Sabrina Carpenter,All We Have Is Love,EVOLution,10,FALSE,TRUE,Pop,G Major,130,9B,2016,None
+725,Selena Gomez,Rare,Rare,1,FALSE,TRUE,Pop,F Major,115,7B,2020,None
+726,Selena Gomez,Dance Again,Rare,2,FALSE,FALSE,Pop,Db Minor,112,12A,2020,None
+727,Selena Gomez,Lose You to Love Me,Rare,3,FALSE,TRUE,Pop,E Major,103,12B,2020,None
+728,Selena Gomez,Look At Her Now,Rare,4,FALSE,TRUE,Pop,Bb Minor,77,3A,2020,None
+729,Selena Gomez,Ring,Rare,5,FALSE,FALSE,Pop,Eb Minor,111,2A,2020,None
+730,Selena Gomez,Vulnerable,Rare,6,FALSE,FALSE,Pop,Bb Major,100,6B,2020,None
+731,Selena Gomez,People You Know,Rare,7,FALSE,FALSE,Pop,Ab Minor,150,1A,2020,None
+732,Selena Gomez,Let Me Get Me,Rare,8,FALSE,FALSE,Pop,D Major,121,10B,2020,None
+733,Selena Gomez,Crowded Room,Rare,9,FALSE,FALSE,Pop,G Minor,90,6A,2020,6LACK
+734,Selena Gomez,Kinda Crazy,Rare,10,FALSE,FALSE,Pop,B Minor,93,10A,2020,None
+735,Selena Gomez,Fun,Rare,11,FALSE,FALSE,Pop,B Minor,114,10A,2020,None
+736,Selena Gomez,Cut You Off,Rare,12,FALSE,FALSE,Pop,F Major,140,7B,2020,None
+737,Selena Gomez,A Sweeter Place,Rare,13,FALSE,FALSE,Pop,Bb Minor,95,3A,2020,Kid Cudi
+738,Selena Gomez,The Heart Wants What It Wants,For You,1,FALSE,TRUE,Pop,G Minor,83,6A,2014,None
+739,Selena Gomez,Do It,For You,15,FALSE,FALSE,Pop,Ab Minor,93,1A,2014,None
+740,Selena Gomez,Slow Down,Stars Dance,2,FALSE,TRUE,Pop,Db Minor,128,12A,2013,None
+741,Selena Gomez,Stars Dance,Stars Dance,3,FALSE,FALSE,Pop,E Minor,110,9A,2013,None
+742,Selena Gomez,Come & Get It,Stars Dance,5,FALSE,TRUE,Pop,G Minor,80,6A,2013,None
+743,Selena Gomez,Love Will Remember,Stars Dance,11,FALSE,FALSE,Pop,G Minor,110,6A,2013,None
+744,Selena Gomez,Round & Round,A Year Without Rain,1,FALSE,TRUE,Pop,Bb Major,128,6B,2010,None
+745,Selena Gomez,A Year Without Rain,A Year Without Rain,2,FALSE,TRUE,Pop,D Minor,120,7A,2010,None
+746,Selena Gomez,Ghost of You,A Year Without Rain,8,FALSE,FALSE,Pop,Db Minor,85,12A,2010,None
+747,Selena Gomez,Love You Like a Love Song,When the Sun Goes Down,1,FALSE,TRUE,Pop,Db Minor,117,12A,2011,None
+748,Selena Gomez,Who Says,When the Sun Goes Down,3,FALSE,TRUE,Pop,E Major,101,12B,2011,None
+749,Selena Gomez,Hit the Lights,When the Sun Goes Down,5,FALSE,FALSE,Pop,G Major,130,9B,2011,None
+750,Selena Gomez,Naturally,Kiss & Tell,6,FALSE,TRUE,Pop,Bb Minor,133,3A,2009,None
+751,Shawn Mendes,Mercy,Illuminate,2,FALSE,TRUE,Pop,B Minor,148,10A,2016,None
+752,Shawn Mendes,Treat You Better,Illuminate,3,FALSE,TRUE,Pop,Bb Minor,83,3A,2016,None
+753,Shawn Mendes,Bad Reputation,Illuminate,11,FALSE,FALSE,Pop,B Minor,150,10A,2016,None
+754,Stevie Nicks,After the Glitter Fades,Bella Donna,5,FALSE,FALSE,Rock,A Major,138,11B,1981,None
+755,Stevie Nicks,Leather and Lace,,8,FALSE,TRUE,Rock,Eb Major,76,5B,1981,Don Henley
+756,Stevie Nicks,Edge of Seventeen,Bella Donna,6,FALSE,TRUE,Rock,C Major,111,8B,1981,None
+757,Sugarland,Babe,Bigger,7,FALSE,TRUE,Country,E Major,172,12B,2018,Taylor Swift
+758,Tori Kelly,Should've Been Us,Unbreakable Smile,5,FALSE,TRUE,Pop,F# Minor,90,11A,2015,None
+759,Tori Kelly,First Heartbreak,Unbreakable Smile,6,FALSE,FALSE,Pop,Eb Minor,136,2A,2015,None
+760,Tori Kelly,I Was Made For Loving You,Unbreakable Smile,7,FALSE,FALSE,Pop,D Major,146,10B,2015,Ed Sheeran
+761,Tove Lo,Cool Girl,Single,0,FALSE,TRUE,Alternative,A Minor,102,8A,2016,None
+762,Troye Sivan,Seventeen,Bloom,1,FALSE,FALSE,Pop,E Major,119,12B,2018,None
+763,Troye Sivan,My My My!,Bloom,2,FALSE,TRUE,Pop,Db Major,103,3B,2018,None
+764,Troye Sivan,Dance to This,Bloom,6,FALSE,TRUE,Pop,B Major,117,1B,2018,Ariana Grande
+765,Troye Sivan,Lucky Strike,Bloom,9,FALSE,FALSE,Pop,D Major,103,10B,2018,None
+766,Troye Sivan,YOUTH,Blue Neighborhood,10,FALSE,TRUE,Pop,G Major,92,9B,2015,None
+767,Warrant,Heaven,Dirty Rotten Filthy Stinking Rich,8,FALSE,TRUE,Rock,F# Major,146,2B,1989,None
+768,X Ambassadors,Unsteady,VHS,4,FALSE,TRUE,Alternative,C Major,117,8B,2015,None
+769,Zedd,I Want You to Know,True Colors,2,FALSE,TRUE,Dance,A Minor,130,8A,2015,Selena Gomez
+770,Zedd,Stay,Single,0,FALSE,TRUE,Dance,F Minor,102,4A,2017,Alessia Cara
+771,Zedd,The Middle,Single,0,FALSE,TRUE,Dance,G Major,107,9B,2018,Maren Morris and Grey
+772,Zendaya,Replay,Zendaya,1,FALSE,TRUE,Pop,F# Minor,140,11A,2013,None
+773,Britney Spears,Toxic,In the Zone,6,FALSE,TRUE,Pop,F Minor,143,4A,2003,None
+774,Britney Spears,Oops!... I Did It Again,Oops!... I Did It Again,1,FALSE,TRUE,Pop,Db Minor,95,12A,2000,None
+775,Britney Spears,...Baby One More Time,...Baby One More Time,1,FALSE,TRUE,Pop,C Minor,93,5A,1999,None
+776,Britney Spears,I'm a Slave 4 U,Britney,1,FALSE,TRUE,Pop,F Minor,110,4A,2001,None
+777,Britney Spears,Gimme More,Blackout,1,FALSE,TRUE,Pop,D Major,113,10B,2007,None
+778,Britney Spears,Womanizer,Circus,1,FALSE,TRUE,Pop,B Major,139,1B,2008,None
+779,Britney Spears,Circus,Circus,2,FALSE,TRUE,Pop,F# Minor,115,11A,2008,None
+780,Britney Spears,Work B**ch,Britney Jean,2,FALSE,TRUE,Pop,A Major,128,11B,2013,None
+781,Jonas Brothers,Sucker,Happiness Begins,1,FALSE,TRUE,Pop,Db Minor,138,12A,2019,None
+782,Jonas Brothers,Cool,Happiness Begins,2,FALSE,TRUE,Pop,C Major,79,8B,2019,None
+783,Jonas Brothers,Only Human,Happiness Begins,3,FALSE,TRUE,Pop,C Major,94,8B,2019,None
+784,Jonas Brothers,I Believe,Happiness Begins,4,FALSE,FALSE,Pop,A Major,99,11B,2019,None
+785,Jonas Brothers,Used To Be,Happiness Begins,5,FALSE,FALSE,Pop,Db Major,146,3B,2019,None
+786,Jonas Brothers,Every Single Time,Happiness Begins,6,FALSE,FALSE,Pop,B Minor,152,10A,2019,None
+787,Jonas Brothers,Don't Throw It Away,Happiness Begins,7,FALSE,FALSE,Pop,Db Minor,102,12A,2019,None
+788,Jonas Brothers,Love Her,Happiness Begins,8,FALSE,FALSE,Pop,Ab Major,103,4B,2019,None
+789,Jonas Brothers,Happy When I'm Sad,Happiness Begins,9,FALSE,FALSE,Pop,G Major,101,9B,2019,None
+790,Jonas Brothers,Trust,Happiness Begins,10,FALSE,FALSE,Pop,C Major,146,8B,2019,None
+791,Jonas Brothers,Strangers,Happiness Begins,11,FALSE,FALSE,Pop,Db Major,130,3B,2019,None
+792,Jonas Brothers,Hesitate,Happiness Begins,12,FALSE,FALSE,Pop,D Major,118,10B,2019,None
+793,Jonas Brothers,Rollercoaster,Happiness Begins,13,FALSE,FALSE,Pop,B Minor,124,10A,2019,None
+794,Jonas Brothers,Comeback,Happiness Begins,14,FALSE,FALSE,Pop,C Major,145,8B,2019,None
+795,Jonas Brothers,Burnin' Up,A Little Bit Longer,2,FALSE,TRUE,Pop,D Major,114,10B,2008,None
+796,Jonas Brothers,Lovebug,A Little Bit Longer,4,FALSE,TRUE,Pop,E Major,79,12B,2008,None
+797,Jonas Brothers,Tonight,A Little Bit Longer,6,FALSE,FALSE,Pop,E Major,156,12B,2008,None
+798,Jonas Brothers,Pushin' Me Away,A Little Bit Longer,9,FALSE,FALSE,Pop,G Major,162,9B,2008,None
+799,Jonas Brothers,S.O.S.,Jonas Brothers,1,FALSE,TRUE,Pop,G Major,137,9B,2008,None
+800,Jonas Brothers,Hold On,Jonas Brothers,2,FALSE,TRUE,Pop,B Major,149,1B,2008,None
+801,Jonas Brothers,When You Look Me In the Eyes,Jonas Brothers,9,FALSE,TRUE,Pop,D Major,136,10B,2008,None
+802,Jonas Brothers,Paranoid,"Lines, Vines and Trying Times",2,FALSE,TRUE,Pop,Bb Major,121,6B,2009,None
+803,Jonas Brothers,Fly With Me,"Lines, Vines and Trying Times",3,FALSE,TRUE,Pop,C Major,150,8B,2009,None
+804,Jonas Brothers,Before the Storm,"Lines, Vines and Trying Times",6,FALSE,TRUE,Pop,D Major,149,10B,2009,Miley Cyrus
+805,Jonas Brothers,Black Keys,"Lines, Vines and Trying Times",9,FALSE,FALSE,Pop,Db Major,75,3B,2009,None
+806,Shakira,Hips Don't Lie,"Oral Fixation, Vol. 2",3,FALSE,TRUE,Pop,Bb Minor,100,3A,2005,Wyclef Jean
+807,Jennifer Lopez,Let's Get Loud,On The 6,5,FALSE,TRUE,Pop,F Minor,131,4A,1999,None
+808,Ed Sheeran,I Don't Care,No.6 Collaborations Project,6,FALSE,TRUE,Pop,F# Major,102,2B,2019,Justin Bieber
+809,Kehlani,Nights Like This,While We Wait,6,FALSE,TRUE,R&B/Soul,Ab Major,146,4B,2019,Ty Dolla $ign
+810,Ariana Grande,One Last Time,My Everything,3,FALSE,TRUE,Pop,Ab Major,125,4B,2014,None
+811,Galantis,Faith,Single,0,FALSE,TRUE,Dance,Ab Major,118,4B,2019,Dolly Parton and Mr. Probz
+812,Post Malone,Circles,Hollywood's Bleeding,6,FALSE,TRUE,Hip-Hop/Rap,C Major,120,8B,2019,None
+813,Panic! At The Disco,"Hey Look Me, I Made It!",Pray For the Wicke,3,FALSE,TRUE,Alternative,F Major,108,7B,2018,None
+814,Lauv,I Like Me Better,Single,0,FALSE,TRUE,Pop,A Major,92,11B,2017,None
+815,Rita Ora,Your Song,Phoenix,5,FALSE,TRUE,Pop,Db Major,118,3B,2018,None
+816,Kehlani,Too Deep,While We Wait,2,FALSE,FALSE,R&B/Soul,G Minor,90,6A,2019,None
+817,Ariana Grande,Break Free,My Everything,5,FALSE,TRUE,Pop,G Minor,130,6A,2014,Zedd
+818,Post Malone,Sunflower,Spiderman: Into the Spider-Verse,2,FALSE,TRUE,Soundtrack,D Major,90,10B,2018,Swae Lee
+819,Post Malone,Better Now,beerbongs & bentleys,9,FALSE,TRUE,Hip-Hop/Rap,Bb Major,145,6B,2018,None
+820,Post Malone,Psycho,beerbongs & bentleys,8,FALSE,TRUE,Hip-Hop/Rap,Ab Major,140,4B,2018,Ty Dolla $ign
+821,Post Malone,rockstar,beerbongs & bentleys,6,FALSE,TRUE,Hip-Hop/Rap,F Minor,160,4A,2018,21 Savage

@@ -7,7 +7,7 @@ Class to create a graph made up of songs
 
 Citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
 """
-WEIGHTS = {"camelot": 4, "bpm": 4, "track number": 0, "single": 2, "album": 2, "year and genre": 1, "style": 2, "mood": 2}
+WEIGHTS = {"camelot": 4, "bpm": 4, "track number": 0, "single": 2, "album": 2, "year and genre": 1, "style": 2, "mood": 2, "artist": 1}
 MINIMUM_PLAYLIST_LENGTH = 4
 BPM_RANGE = 20
 MIN_BPM_CHANGE = 5
@@ -312,7 +312,7 @@ class Camelot(object):
         return str(self._hour) + self._wheel
 
 class Song(object):
-    def __init__(self, id, artist, title, album, trackNumber, deluxeOnly, single, genre, key, bpm, camelot, year, tags=None, playlists=None):
+    def __init__(self, id, artist, title, album, trackNumber, deluxeOnly, single, genre, key, bpm, camelot, year, tags=None, feature=None, playlists=None):
         """initializes the song object with the provided information"""
         self._id = id
         self._artist = artist
@@ -327,6 +327,10 @@ class Song(object):
         self._camelot = camelot
         self._year = year
         self._tags = tags
+        if feature == "None" or feature == None:
+            self._feature = []
+        else:
+            self._feature = feature.split(" and ")
         self._playlists = playlists
 
     def getArtist(self):
@@ -373,10 +377,10 @@ class Song(object):
                     count += 1
         return count
 
-    def singleStatus(self, other):
+    def singleStatusSameYear(self, other):
         """returns true if the song was a radio single
         and false otherwise"""
-        if self._single == other._single and self._single == True:
+        if self._single == other._single and self._single == True and self._year == other._year:
             return True
         else:
             return False
@@ -400,7 +404,21 @@ class Song(object):
     def hasSameGenre(self, other):
         """returns true if the genres of two songs are the same
         and false otherwise"""
-        if self._genre == self._other:
+        if self._genre == other._genre:
+            return True
+        else:
+            return False
+
+    def featureToArtist(self, other):
+        if self._artist in other._feature:
+            return True
+        else:
+            return False
+
+    def hasSameArtist(self, other):
+        """returns true if the genres of two songs are the same
+        and false otherwise"""
+        if self._artist == other._artist:
             return True
         else:
             return False
@@ -514,7 +532,7 @@ class SongGraph(WeightedUndirectedGraph):
                         weight += WEIGHTS["bpm"]
                     if mainVertex._song.hasSameTrackNumber(compVertex._song):
                         weight += WEIGHTS["track number"]
-                    if mainVertex._song.singleStatus(compVertex._song):
+                    if mainVertex._song.singleStatusSameYear(compVertex._song):
                         weight += WEIGHTS["single"]
                     if mainVertex._song.onSameAlbum(compVertex._song):
                         weight += WEIGHTS["album"]
@@ -524,6 +542,10 @@ class SongGraph(WeightedUndirectedGraph):
                         weight += WEIGHTS["style"]
                     if mainVertex._song.numberOfSamePlaylists(compVertex._song) > 0:
                         weight += WEIGHTS["mood"]
+                    if mainVertex._song.hasSameArtist(compVertex._song):
+                        weight += WEIGHTS["artist"]
+                    if mainVertex._song.featureToArtist(compVertex._song):
+                        weight += WEIGHTS["artist"]
                 if weight > 0:
                     self.addEdge(mainVertex._label, compVertex._label, self.maxPossibleEdgeWeight() + 1 - weight)
                 weight = 0
