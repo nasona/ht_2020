@@ -8,7 +8,7 @@ Class to create a graph made up of songs
 Citations: Dr. Ken Lambert Project 12 graphs.py from CSCI 112
 """
 WEIGHTS = {"camelot": 4, "bpm": 4, "track number": 0, "single": 2, "album": 2, "year and genre": 1, "style": 2, "mood": 2, "artist": 1}
-MINIMUM_PLAYLIST_LENGTH = 4
+MINIMUM_PLAYLIST_LENGTH = 5
 BPM_RANGE = 20
 MIN_BPM_CHANGE = 5
 YEAR_THRESHOLD = 2
@@ -388,7 +388,7 @@ class Song(object):
     def onSameAlbum(self, other):
         """returns true if two songs are on the same _album
         and false otherwise"""
-        if self._album == other._album:
+        if self._album == other._album and self._album != None:
             return True
         else:
             return False

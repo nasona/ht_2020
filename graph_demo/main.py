@@ -5,8 +5,8 @@ import csv
 import graph_algs
 import random
 
-SONGCSV = "songs-demo.csv"
-TAGCSV = "tags-demo.csv"
+SONGCSV = "songs.csv"
+TAGCSV = "tags.csv"
 
 def createSongs():
     songFile = open(SONGCSV)
@@ -48,24 +48,47 @@ def chooseTheSongs(songList, startSong, endSong, bagSize):
         potentialPlaylist.append(newSong)
     return potentialPlaylist
 
+def generateRandomPlaylist(songList, startSong, endSong, size):
+    randomPlaylist = []
+    randomPlaylist.append(startSong)
+    songList.remove(startSong)
+    songList.remove(endSong)
+    for i in range(size):
+        newSong = random.choice(songList)
+        songList.remove(newSong)
+        randomPlaylist.append(newSong)
+    randomPlaylist.append(endSong)
+    return randomPlaylist
+
 
 def main():
+
     print("Creating Song Objects...")
     songList = createSongs()
-    startSong = songList[3]
-    endSong = songList[4]
-    chooseList = chooseTheSongs(songList, startSong, endSong, 5)
-    print(chooseList)
-    print(len(chooseList))
+    oldList = createSongs()
+
+    startSong = songList[393] #Graveyard by Halsey
+    endSong = songList[183] #The Bones by Maren Morris
+    #random = generateRandomPlaylist(songList, startSong, endSong, 4)
+    #for song in random:
+    #    print(str(song))
+
+    chooseList = chooseTheSongs(songList, startSong, endSong, 200)
+    #print(chooseList)
+    #print(len(chooseList))
     #print(len(songList))
-    """
+    print("complete!")
+
+
     print()
     print("Constructing Graph...")
-    graph = SongGraph(songList, startSong, endSong)
-    print(str(graph))
+    graph = SongGraph(chooseList, chooseList[0], chooseList[1])
+    #print(str(graph))
     #print(songList)
     #graph.editGraphForSearch(76,46)
     #print(str(graph))
+    print("complete!")
+
     print()
     print("Calculating best playlist with:")
     print("Start Song: " + str(startSong))
@@ -74,7 +97,9 @@ def main():
     #print(result)
     print()
     print(graph_algs.prettyPath(graph, result))
-    """
+
+
+
 
 
 if __name__ == "__main__":

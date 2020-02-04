@@ -9,9 +9,9 @@ the playlists
 #percpetion of music, how people perceive music as similar, djs guide for setlist
 #look for similar research like it but not the same topic
 #the messenger metroidvania
-MINIMUM_PLAYLIST_LENGTH = 4
+MINIMUM_PLAYLIST_LENGTH = 5
 BIG_NUMBER = 10000000
-ARTIST_SELF_AVOIDANCE = False
+ARTIST_SELF_AVOIDANCE = True
 
 def calculateEstimatedDistance(graph, layer):
     return graph.maxPossibleEdgeWeight()//2 * (MINIMUM_PLAYLIST_LENGTH - layer)
