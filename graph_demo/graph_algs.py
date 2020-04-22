@@ -28,7 +28,10 @@ def aStar(graph):
             open.append(vertex)
             edge = vertex.getEdgeTo(graph.getStartVertex())
             if edge != None:
-                tracker[vertex.getLabel()] = {"included": False, "distance": edge.getWeight(), "path":[graph.getStartVertex().getLabel()]}
+                if vertex.getSong().getArtist() != graph.getStartVertex().getSong().getArtist():
+                    tracker[vertex.getLabel()] = {"included": False, "distance": edge.getWeight(), "path":[graph.getStartVertex().getLabel()]}
+                else:
+                    tracker[vertex.getLabel()] = {"included": False, "distance": (edge.getWeight()  + BIG_NUMBER//2), "path":[graph.getStartVertex().getLabel()]}
             else:
                 tracker[vertex.getLabel()] = {"included": False, "distance": BIG_NUMBER, "path":[]}
 
